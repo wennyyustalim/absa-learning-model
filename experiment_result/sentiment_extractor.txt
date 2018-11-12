@@ -1,121 +1,143 @@
+Cross validation results:
+	Category: cleanliness
+		Precision: 0.8897175696167633
+		Recall: 0.8279940136353181
+		F1-score: 0.8474545817638219
+	Category: food/drinks
+		Precision: 0.7711445279866332
+		Recall: 0.6431556923468689
+		F1-score: 0.6362008648270259
+	Category: location
+		Precision: 0.5487812175970072
+		Recall: 0.5395570234363338
+		F1-score: 0.5040065205893285
+	Category: room amenities
+		Precision: 0.7646740497595987
+		Recall: 0.7648513554252685
+		F1-score: 0.7573310177029782
+	Category: staff
+		Precision: 0.6760117789187557
+		Recall: 0.5465079365079365
+		F1-score: 0.536819544227672
+
 Evaluation results:
 	Category: cleanliness
 		Precision: 0.8836066449441804
 		Recall: 0.8511907672746833
 		F1-score: 0.8603578488519439
 		Wrong classification:
-			Sentence: The motel was overall generally nice clean and comfortable
+			Sentence: The motel was overall generally nice clean and comfortable 
 			Actual: 0
 			Prediction: 1
-			Sentence: No issues clean comfortable Friendly staff
+			Sentence: No issues clean comfortable Friendly staff 
 			Actual: 0
 			Prediction: 1
-			Sentence: This facility is very out dated shabby and does not appear clean
+			Sentence: This facility is very out dated shabby and does not appear clean 
 			Actual: 0
 			Prediction: 1
-			Sentence: Carpets and bedding are worn thread bare and stained
+			Sentence: Carpets and bedding are worn thread bare and stained 
 			Actual: 0
 			Prediction: 1
-			Sentence: Compared to other hotels in Japan this wasn t that clean
+			Sentence: Compared to other hotels in Japan this wasn t that clean 
 			Actual: 0
 			Prediction: 1
-			Sentence: Had to take an Uber to go Downtown the room smelled like mothballs but the price was reasonable and quiet environment
+			Sentence: Had to take an Uber to go Downtown the room smelled like mothballs but the price was reasonable and quiet environment 
 			Actual: 1
 			Prediction: 0
-			Sentence: Beds and towels were clean bit NO hot water
+			Sentence: Beds and towels were clean bit NO hot water 
 			Actual: 0
 			Prediction: 1
 			Sentence: everything was OK the place is nice and cozy clean can use maintenance but my whole stay there was no hot water I would have to let water run for a looooonnnnnnng time to even get a little warm water
 			Actual: 1
 			Prediction: 0
-			Sentence: Sheets were clean but over bleached and starched
+			Sentence: Sheets were clean but over bleached and starched 
 			Actual: 0
 			Prediction: 1
-			Sentence: Clean sheets
+			Sentence: Clean sheets 
 			Actual: 0
 			Prediction: 1
-			Sentence: Hair all over room bathroom not clean
+			Sentence: Hair all over room bathroom not clean 
 			Actual: 0
 			Prediction: 1
-			Sentence: Place was filthy smelly and very noisy
+			Sentence: Place was filthy smelly and very noisy 
 			Actual: 0
 			Prediction: 1
-			Sentence: What I liked the best were the free breakfasts the 5 daily credit if you didn t need the room cleaned on a daily basis
+			Sentence: What I liked the best were the free breakfasts the 5 daily credit if you didn t need the room cleaned on a daily basis 
 			Actual: 1
 			Prediction: 0
-			Sentence: Nice motel close to centre rooms are always tidy
+			Sentence: Nice motel close to centre rooms are always tidy 
 			Actual: 1
 			Prediction: 0
-			Sentence: Clean room near the beach and dirt cheap
+			Sentence: Clean room near the beach and dirt cheap 
 			Actual: 0
 			Prediction: 1
-			Sentence: CLEANING OF THE ROOM WAS HIT AND MISS
+			Sentence: CLEANING OF THE ROOM WAS HIT AND MISS 
 			Actual: 0
 			Prediction: 1
-			Sentence: Room wasn t clean when I reached
+			Sentence: Room wasn t clean when I reached 
 			Actual: 0
 			Prediction: 1
-			Sentence: Had to call the housekeeping staff to clean it
+			Sentence: Had to call the housekeeping staff to clean it 
 			Actual: 0
 			Prediction: 1
-			Sentence: Room was not clean we have to ask them to clean it properly
+			Sentence: Room was not clean we have to ask them to clean it properly 
 			Actual: 0
 			Prediction: 1
 			Sentence: pillow is very hard chair and table cloth to be clean handwashing area washbasin very dirty
 			Actual: 0
 			Prediction: 1
-			Sentence: Clean bedding towels but no bedside lights
+			Sentence: Clean bedding towels but no bedside lights 
 			Actual: 0
 			Prediction: 1
-			Sentence: It wasnt clean when I ve come and sheets needed to be changed
+			Sentence: It wasnt clean when I ve come and sheets needed to be changed 
 			Actual: 0
 			Prediction: 1
 			Sentence: no shampoo no shower gel no desk but quite and clean staffs are nice
 			Actual: 0
 			Prediction: 1
-			Sentence: Room clean but worn
+			Sentence: Room clean but worn 
 			Actual: 0
 			Prediction: 1
-			Sentence: Motel across street was 40 00 dollars and very clean but old
+			Sentence: Motel across street was 40 00 dollars and very clean but old 
 			Actual: 0
 			Prediction: 1
-			Sentence: Clean and comfy and close to Mt Field National Park
+			Sentence: Clean and comfy and close to Mt Field National Park 
 			Actual: 0
 			Prediction: 1
-			Sentence: Very old and filthy
+			Sentence: Very old and filthy 
 			Actual: 0
 			Prediction: 1
-			Sentence: Nice friendly and clean Motel
+			Sentence: Nice friendly and clean Motel 
 			Actual: 0
 			Prediction: 1
-			Sentence: Great motel nice and clean and close to lots of amenities
+			Sentence: Great motel nice and clean and close to lots of amenities 
 			Actual: 0
 			Prediction: 1
-			Sentence: The Flamingo is an affordable 80 s style motel that is comfortable and clean with pleasant staff and a pool and hot pool
+			Sentence: The Flamingo is an affordable 80 s style motel that is comfortable and clean with pleasant staff and a pool and hot pool 
 			Actual: 0
 			Prediction: 1
-			Sentence: Clean and tidy old school motel
+			Sentence: Clean and tidy old school motel 
 			Actual: 0
 			Prediction: 1
-			Sentence: The room smelled a little but overall it suited our purpose
+			Sentence: The room smelled a little but overall it suited our purpose 
 			Actual: 1
 			Prediction: 0
-			Sentence: Although we arrived early we were allowed into our room as soon as it was cleaned
+			Sentence: Although we arrived early we were allowed into our room as soon as it was cleaned 
 			Actual: 1
 			Prediction: 0
-			Sentence: The staff was accomodating and the place was tidy
+			Sentence: The staff was accomodating and the place was tidy 
 			Actual: 1
 			Prediction: 0
 			Sentence: Smell in pillow pillow slips are clean
 			Actual: 0
 			Prediction: 1
-			Sentence: Clean towels
+			Sentence: Clean towels 
 			Actual: 0
 			Prediction: 1
-			Sentence: Think they would make sure my room was clean before I checked into it
+			Sentence: Think they would make sure my room was clean before I checked into it 
 			Actual: 0
 			Prediction: 1
-			Sentence: How about making sure my room is clean before I check in
+			Sentence: How about making sure my room is clean before I check in 
 			Actual: 0
 			Prediction: 1
 		Number of wrong classification: 38 out of 290
@@ -127,76 +149,76 @@ Evaluation results:
 			Sentence: Friendly staff good food nice bed no hot water in shower
 			Actual: 0
 			Prediction: 1
-			Sentence: Advice don t pay for the dinner or breakfast you get much better value for money if you eat at the eating places at the nara station
+			Sentence: Advice don t pay for the dinner or breakfast you get much better value for money if you eat at the eating places at the nara station 
 			Actual: 0
 			Prediction: 1
-			Sentence: Arrived at around dinner time and had to wait until someone arrived to check us in
+			Sentence: Arrived at around dinner time and had to wait until someone arrived to check us in 
 			Actual: 0
 			Prediction: 1
-			Sentence: Food at the restaurant was good
+			Sentence: Food at the restaurant was good 
 			Actual: 0
 			Prediction: 1
-			Sentence: The property did not offer any food service so you are forced to search the local area
+			Sentence: The property did not offer any food service so you are forced to search the local area 
 			Actual: 0
 			Prediction: 1
-			Sentence: Also there was a advertising of a continiental breakfast and there was none as previously stated the property had no food service for their guests
+			Sentence: Also there was a advertising of a continiental breakfast and there was none as previously stated the property had no food service for their guests 
 			Actual: 0
 			Prediction: 1
-			Sentence: Breakfast not available ans free coffee is available in reception but not in your room
+			Sentence: Breakfast not available ans free coffee is available in reception but not in your room 
 			Actual: 1
 			Prediction: 0
-			Sentence: No restaurant open for breakfast or anything
+			Sentence: No restaurant open for breakfast or anything 
 			Actual: 0
 			Prediction: 1
-			Sentence: I was advised to go around the corner to a coffee shop
+			Sentence: I was advised to go around the corner to a coffee shop 
 			Actual: 0
 			Prediction: 1
-			Sentence: Wish they did lunch and dinner though
+			Sentence: Wish they did lunch and dinner though 
 			Actual: 0
 			Prediction: 1
-			Sentence: Unfortunately there wasn t a bar
+			Sentence: Unfortunately there wasn t a bar 
 			Actual: 0
 			Prediction: 1
-			Sentence: At 4 am someone was laying on the horn to get into the gate only to drop some drunk guy off and leave
+			Sentence: At 4 am someone was laying on the horn to get into the gate only to drop some drunk guy off and leave 
 			Actual: 0
 			Prediction: 1
-			Sentence: Breakfast was almost nothing
+			Sentence: Breakfast was almost nothing 
 			Actual: 0
 			Prediction: 1
-			Sentence: Unfortunately they apparently have a second bar which was right below our room
+			Sentence: Unfortunately they apparently have a second bar which was right below our room 
 			Actual: 0
 			Prediction: 1
-			Sentence: Although the attached restaurant was very busy usually a good sign we were disappointed in the food
+			Sentence: Although the attached restaurant was very busy usually a good sign we were disappointed in the food 
 			Actual: 0
 			Prediction: 1
-			Sentence: at 8am the breakfast was very light nothing to eat apart kellogs and if you don t like
+			Sentence: at 8am the breakfast was very light nothing to eat apart kellogs and if you don t like 
 			Actual: 0
 			Prediction: 1
-			Sentence: Breakfast sucked and was practically non existent one morning
+			Sentence: Breakfast sucked and was practically non existent one morning 
 			Actual: 0
 			Prediction: 1
-			Sentence: Only access to food nearby was a student food hall
+			Sentence: Only access to food nearby was a student food hall 
 			Actual: 0
 			Prediction: 1
-			Sentence: No breakfast served and pool was closed
+			Sentence: No breakfast served and pool was closed 
 			Actual: 0
 			Prediction: 1
-			Sentence: However breakfast is no longer served unlike before
+			Sentence: However breakfast is no longer served unlike before 
 			Actual: 0
 			Prediction: 1
-			Sentence: The staff was nice the lobby was large and pleasant and the breakfast was good but the room was very old and smelly
+			Sentence: The staff was nice the lobby was large and pleasant and the breakfast was good but the room was very old and smelly 
 			Actual: 0
 			Prediction: 1
-			Sentence: Extreme noise from music at bar
+			Sentence: Extreme noise from music at bar 
 			Actual: 0
 			Prediction: 1
-			Sentence: Food was average the taste was okay just eatable but it was bit expensive
+			Sentence: Food was average the taste was okay just eatable but it was bit expensive 
 			Actual: 1
 			Prediction: 0
-			Sentence: Service was on time Food was terrible
+			Sentence: Service was on time Food was terrible 
 			Actual: 0
 			Prediction: 1
-			Sentence: During check out only Hand written bill slips of food water he did not give me bill of room charges
+			Sentence: During check out only Hand written bill slips of food water he did not give me bill of room charges 
 			Actual: 0
 			Prediction: 1
 			Sentence: Delay in check in manager denied to check in then after sometime he checkin but the room quality was very bad and in the hotel there is only 2 staff members 1 is manager and other waiter and no else was there in the hotel and breakfast you cannot have your choice of breakfast and the taste of breakfast is very bad and and tea is of full of water almost with no sugar i suggest everyone who is planning to visit hotel please check room before checkin and in my recommendation please if you pay genuine then go for genuine only
@@ -205,88 +227,88 @@ Evaluation results:
 			Sentence: staff behavior is good but food quality and tea not good
 			Actual: 0
 			Prediction: 1
-			Sentence: If you give importance to good food this hotel is not for you
+			Sentence: If you give importance to good food this hotel is not for you 
 			Actual: 0
 			Prediction: 1
 			Sentence: Simple breakfast when I paid for all days on check out they took little bit more the price in Hotels com
 			Actual: 0
 			Prediction: 1
-			Sentence: 20 minutes to have a bottle of water delivered to the table 45 minutes for food to arrive but most concrening is hygiene my waiter cleaned my knife by running it between his fingers
+			Sentence: 20 minutes to have a bottle of water delivered to the table 45 minutes for food to arrive but most concrening is hygiene my waiter cleaned my knife by running it between his fingers 
 			Actual: 0
 			Prediction: 1
-			Sentence: I enjoy staying at One Burgess Hill because of the peace and tranquility yet its only a few minutes drive to the middle of town
+			Sentence: I enjoy staying at One Burgess Hill because of the peace and tranquility yet its only a few minutes drive to the middle of town 
 			Actual: 0
 			Prediction: 1
-			Sentence: Had a lovely meal in the restaurant
+			Sentence: Had a lovely meal in the restaurant 
 			Actual: 1
 			Prediction: 0
-			Sentence: milk for cups of tea
+			Sentence: milk for cups of tea 
 			Actual: 0
 			Prediction: 1
-			Sentence: Stayed 2 days and first day came back and only coffee filled
+			Sentence: Stayed 2 days and first day came back and only coffee filled 
 			Actual: 0
 			Prediction: 1
-			Sentence: Nothing for late arrival but junk food and apples
+			Sentence: Nothing for late arrival but junk food and apples 
 			Actual: 0
 			Prediction: 1
-			Sentence: Cons no coffee pot or microwave in the room mini bar in hotel room outrageously over priced but had some nice items
+			Sentence: Cons no coffee pot or microwave in the room mini bar in hotel room outrageously over priced but had some nice items 
 			Actual: 1
 			Prediction: 0
-			Sentence: Unfortunately the hotel has also a pub and a beer garden
+			Sentence: Unfortunately the hotel has also a pub and a beer garden 
 			Actual: 0
 			Prediction: 1
-			Sentence: On the night I stayed the beer garden was rented out for a function which lead to extreme noise from a music band until 11 20 pm
+			Sentence: On the night I stayed the beer garden was rented out for a function which lead to extreme noise from a music band until 11 20 pm 
 			Actual: 0
 			Prediction: 1
-			Sentence: The only complaint we had was there was not enough tea in our room
+			Sentence: The only complaint we had was there was not enough tea in our room 
 			Actual: 1
 			Prediction: 0
-			Sentence: There was lots of coffee but only three teabags
+			Sentence: There was lots of coffee but only three teabags 
 			Actual: 0
 			Prediction: 1
 			Sentence: That was a bit disappointing as we couldn t have a cup of tea in the morning as we only had one teabag between two
 			Actual: 1
 			Prediction: 0
-			Sentence: Food was great at the Golf club but room service food was not recommendable
+			Sentence: Food was great at the Golf club but room service food was not recommendable 
 			Actual: 0
 			Prediction: 1
-			Sentence: Breakfast at the Pavilion overlooking the infinity pool golf course and ocean can t be matched anywhere in the U S
+			Sentence: Breakfast at the Pavilion overlooking the infinity pool golf course and ocean can t be matched anywhere in the U S 
 			Actual: 0
 			Prediction: 1
-			Sentence: Nice outside fire pit for sitting around with a drink on a warm night
+			Sentence: Nice outside fire pit for sitting around with a drink on a warm night 
 			Actual: 0
 			Prediction: 1
-			Sentence: Even strongest darkest coffee was weak Thanks
+			Sentence: Even strongest darkest coffee was weak Thanks 
 			Actual: 0
 			Prediction: 1
-			Sentence: During our visit the bar ran out of requested beverages food menus were not visible elevator is loud and sounds as if it is going to break at any time
+			Sentence: During our visit the bar ran out of requested beverages food menus were not visible elevator is loud and sounds as if it is going to break at any time 
 			Actual: 0
 			Prediction: 1
-			Sentence: When the bar tender ran out of Bacardi rum she stated they only get stocked once a week inventory issues
+			Sentence: When the bar tender ran out of Bacardi rum she stated they only get stocked once a week inventory issues 
 			Actual: 0
 			Prediction: 1
-			Sentence: Breakfast nothing special
+			Sentence: Breakfast nothing special 
 			Actual: 0
 			Prediction: 1
-			Sentence: The bay provides a wide range of dishes next to your cabanas and the beach
+			Sentence: The bay provides a wide range of dishes next to your cabanas and the beach 
 			Actual: 0
 			Prediction: 1
-			Sentence: The only fresh air comes from a space also overlooking the patio and bar
+			Sentence: The only fresh air comes from a space also overlooking the patio and bar 
 			Actual: 0
 			Prediction: 1
-			Sentence: We also came from Glendalough and went to Greystones for dinner
+			Sentence: We also came from Glendalough and went to Greystones for dinner 
 			Actual: 0
 			Prediction: 1
-			Sentence: The breakfast room was sunny but up a flight of stairs
+			Sentence: The breakfast room was sunny but up a flight of stairs 
 			Actual: 0
 			Prediction: 1
-			Sentence: the room is OK and the breakfast is awful nothing to eat
+			Sentence: the room is OK and the breakfast is awful nothing to eat 
 			Actual: 0
 			Prediction: 1
-			Sentence: Nice location average hotel breakfast not bad very good pool
+			Sentence: Nice location average hotel breakfast not bad very good pool 
 			Actual: 0
 			Prediction: 1
-			Sentence: Breakfast choice not so good
+			Sentence: Breakfast choice not so good 
 			Actual: 0
 			Prediction: 1
 			Sentence: Only bad thing was the coffee maker was filthy
@@ -298,166 +320,166 @@ Evaluation results:
 		Recall: 0.5361607142857143
 		F1-score: 0.5085381793650123
 		Wrong classification:
-			Sentence: short walk to beach
+			Sentence: short walk to beach 
 			Actual: 0
 			Prediction: 1
-			Sentence: Convenient location to the event we were attending
+			Sentence: Convenient location to the event we were attending 
 			Actual: 0
 			Prediction: 1
-			Sentence: Great location looking out over the beach
+			Sentence: Great location looking out over the beach 
 			Actual: 0
 			Prediction: 1
-			Sentence: Didn t experience the area
+			Sentence: Didn t experience the area 
 			Actual: 0
 			Prediction: 1
-			Sentence: Next to Nara Park n also train station
+			Sentence: Next to Nara Park n also train station 
 			Actual: 0
 			Prediction: 1
-			Sentence: Advice don t pay for the dinner or breakfast you get much better value for money if you eat at the eating places at the nara station
+			Sentence: Advice don t pay for the dinner or breakfast you get much better value for money if you eat at the eating places at the nara station 
 			Actual: 0
 			Prediction: 1
-			Sentence: We were disappointed the area was cool but the hotel not so much
+			Sentence: We were disappointed the area was cool but the hotel not so much 
 			Actual: 0
 			Prediction: 1
 			Sentence: Hotel is conveniently located near the kintetsu line and close to attractions like the Deer Park Todai ji and Kasuga Taisha
 			Actual: 1
 			Prediction: 0
-			Sentence: Lovely area and motel close handy to all conveniences and beaches
+			Sentence: Lovely area and motel close handy to all conveniences and beaches 
 			Actual: 0
 			Prediction: 1
-			Sentence: There WAS a dead cockroach on my bedside table and the place smelt musty
+			Sentence: There WAS a dead cockroach on my bedside table and the place smelt musty 
 			Actual: 0
 			Prediction: 1
-			Sentence: There was also a sewing needle complete with red thread stuck in the blue curtains near the sofa
+			Sentence: There was also a sewing needle complete with red thread stuck in the blue curtains near the sofa 
 			Actual: 0
 			Prediction: 1
-			Sentence: Location was good staff was not helpful and room was dirty
+			Sentence: Location was good staff was not helpful and room was dirty 
 			Actual: 0
 			Prediction: 1
-			Sentence: All of our needs were met and we look forward to being guests again in the near future
+			Sentence: All of our needs were met and we look forward to being guests again in the near future 
 			Actual: 1
 			Prediction: 0
-			Sentence: Stay away
+			Sentence: Stay away 
 			Actual: 0
 			Prediction: 1
-			Sentence: The TV only got one station as well
+			Sentence: The TV only got one station as well 
 			Actual: 0
 			Prediction: 1
-			Sentence: The property did not offer any food service so you are forced to search the local area
+			Sentence: The property did not offer any food service so you are forced to search the local area 
 			Actual: 0
 			Prediction: 1
-			Sentence: Awkward location dilapidated condition
+			Sentence: Awkward location dilapidated condition 
 			Actual: 0
 			Prediction: 1
-			Sentence: Within walking distance to the Junkanoo beach and restaurants and the downtown area
+			Sentence: Within walking distance to the Junkanoo beach and restaurants and the downtown area 
 			Actual: 0
 			Prediction: 1
-			Sentence: Great little place to stay very close to the beach and beach bars and a close walk to the shops
+			Sentence: Great little place to stay very close to the beach and beach bars and a close walk to the shops 
 			Actual: 1
 			Prediction: 0
-			Sentence: Seemed like a safe area
+			Sentence: Seemed like a safe area 
 			Actual: 0
 			Prediction: 1
-			Sentence: The beach is right across the street and downtown is in walking distance or catch the Jitney Bus
+			Sentence: The beach is right across the street and downtown is in walking distance or catch the Jitney Bus 
 			Actual: 0
 			Prediction: 1
-			Sentence: Access to busses and nearby restaurants and beach
+			Sentence: Access to busses and nearby restaurants and beach 
 			Actual: 0
 			Prediction: 1
-			Sentence: We had to walk to the Main Street to catch the bus and the walk feels dangerous and the sides are full of trash abandoned cars
+			Sentence: We had to walk to the Main Street to catch the bus and the walk feels dangerous and the sides are full of trash abandoned cars 
 			Actual: 0
 			Prediction: 1
-			Sentence: Doesn t feel safe to walk at night
+			Sentence: Doesn t feel safe to walk at night 
 			Actual: 0
 			Prediction: 1
-			Sentence: It s just the location that didn t work for me
+			Sentence: It s just the location that didn t work for me 
 			Actual: 0
 			Prediction: 1
-			Sentence: It had good bus connections
+			Sentence: It had good bus connections 
 			Actual: 0
 			Prediction: 1
-			Sentence: Not comfortable with the neighborhood hotel or hotel staff
+			Sentence: Not comfortable with the neighborhood hotel or hotel staff 
 			Actual: 0
 			Prediction: 1
-			Sentence: Great location but rooms are pretty spartan no shampoo
+			Sentence: Great location but rooms are pretty spartan no shampoo 
 			Actual: 0
 			Prediction: 1
-			Sentence: Beautiful grounds house and location
+			Sentence: Beautiful grounds house and location 
 			Actual: 0
 			Prediction: 1
-			Sentence: The location is good away from the center of town but with easy walking distance to the iSite and the downtown center
+			Sentence: The location is good away from the center of town but with easy walking distance to the iSite and the downtown center 
 			Actual: 0
 			Prediction: 1
-			Sentence: Really happy with location of motel
+			Sentence: Really happy with location of motel 
 			Actual: 0
 			Prediction: 1
-			Sentence: Great for morning walk in the beach
+			Sentence: Great for morning walk in the beach 
 			Actual: 0
 			Prediction: 1
-			Sentence: Great beach front location at Tahuna
+			Sentence: Great beach front location at Tahuna 
 			Actual: 0
 			Prediction: 1
-			Sentence: Very basic near main road so lot of noise during day
+			Sentence: Very basic near main road so lot of noise during day 
 			Actual: 0
 			Prediction: 1
-			Sentence: After a bit of confusion with pricing we were really happy with the facilities and location of the motel
+			Sentence: After a bit of confusion with pricing we were really happy with the facilities and location of the motel 
 			Actual: 0
 			Prediction: 1
-			Sentence: They need to walk the halls at night and quiet loud guests
+			Sentence: They need to walk the halls at night and quiet loud guests 
 			Actual: 0
 			Prediction: 1
-			Sentence: Never been so close to walking away and driving home
+			Sentence: Never been so close to walking away and driving home 
 			Actual: 0
 			Prediction: 1
-			Sentence: No information on local activities or maps of area
+			Sentence: No information on local activities or maps of area 
 			Actual: 0
 			Prediction: 1
-			Sentence: Good location in old town and close to Burriana beach
+			Sentence: Good location in old town and close to Burriana beach 
 			Actual: 0
 			Prediction: 1
-			Sentence: Train at night was too loud
+			Sentence: Train at night was too loud 
 			Actual: 0
 			Prediction: 1
 			Sentence: Would be helpful to know when water park is not open
 			Actual: 0
 			Prediction: 1
-			Sentence: Only access to food nearby was a student food hall
+			Sentence: Only access to food nearby was a student food hall 
 			Actual: 0
 			Prediction: 1
-			Sentence: I could hear people walking around and talking in the hallway because of bad sound proof
+			Sentence: I could hear people walking around and talking in the hallway because of bad sound proof 
 			Actual: 0
 			Prediction: 1
-			Sentence: If not it is too far away from the downtown and the restaurants
+			Sentence: If not it is too far away from the downtown and the restaurants 
 			Actual: 0
 			Prediction: 1
-			Sentence: It is convenient for me as I am a graduate student in Rutgers and my family lives two hours away from the university
+			Sentence: It is convenient for me as I am a graduate student in Rutgers and my family lives two hours away from the university 
 			Actual: 0
 			Prediction: 1
-			Sentence: Okay neighborhood
+			Sentence: Okay neighborhood 
 			Actual: 0
 			Prediction: 1
-			Sentence: I can understand the noise as it is not a great area but for a 3 star hotel I cannot understand that the duvet is full off holes no toilet paper in toilet and no towels in bathroom
+			Sentence: I can understand the noise as it is not a great area but for a 3 star hotel I cannot understand that the duvet is full off holes no toilet paper in toilet and no towels in bathroom 
 			Actual: 0
 			Prediction: 1
-			Sentence: Hotel appearance was nice proper parking area but I haven t utilized it
+			Sentence: Hotel appearance was nice proper parking area but I haven t utilized it 
 			Actual: 0
 			Prediction: 1
-			Sentence: The location was good as the accessibility was good but due to narrow roads it was a bit difficult to reach the hotel location
+			Sentence: The location was good as the accessibility was good but due to narrow roads it was a bit difficult to reach the hotel location 
 			Actual: 1
 			Prediction: 0
-			Sentence: Though the room quality was good as it was clean and well maintained but the network connectivity was not good and the location of the hotel was not easily accessible as they was no proper sign board installed at the main road so I suggest the hotel to improve it
+			Sentence: Though the room quality was good as it was clean and well maintained but the network connectivity was not good and the location of the hotel was not easily accessible as they was no proper sign board installed at the main road so I suggest the hotel to improve it 
 			Actual: 0
 			Prediction: 1
-			Sentence: Hotel appearance was good but the parking area was congested
+			Sentence: Hotel appearance was good but the parking area was congested 
 			Actual: 0
 			Prediction: 1
-			Sentence: Location is also very bad
+			Sentence: Location is also very bad 
 			Actual: 0
 			Prediction: 1
-			Sentence: As mentioned the only plus point was the location
+			Sentence: As mentioned the only plus point was the location 
 			Actual: 0
 			Prediction: 1
-			Sentence: Hotel location was not that much good To find out the hotel locality It was difficult
+			Sentence: Hotel location was not that much good To find out the hotel locality It was difficult 
 			Actual: 0
 			Prediction: 1
 			Sentence: pillow is very hard chair and table cloth to be clean handwashing area washbasin very dirty
@@ -466,115 +488,115 @@ Evaluation results:
 			Sentence: good location new delhi tourist spots good cleanliness good customer service
 			Actual: 0
 			Prediction: 1
-			Sentence: The hotel itself was in a run down area of the town in a dirty side street with other similar shady hotels
+			Sentence: The hotel itself was in a run down area of the town in a dirty side street with other similar shady hotels 
 			Actual: 0
 			Prediction: 1
-			Sentence: I walked but I understand the Yale shuttle stops nearby to take you to the campus
+			Sentence: I walked but I understand the Yale shuttle stops nearby to take you to the campus 
 			Actual: 0
 			Prediction: 1
-			Sentence: I am a older woman and had to walk the blocks by myself
+			Sentence: I am a older woman and had to walk the blocks by myself 
 			Actual: 0
 			Prediction: 1
-			Sentence: Desk staff and concierge were not knowledgeable about the area or helpful in any way
+			Sentence: Desk staff and concierge were not knowledgeable about the area or helpful in any way 
 			Actual: 0
 			Prediction: 1
-			Sentence: Location is great conveniently to the French quarter bourbon street and the trolley
+			Sentence: Location is great conveniently to the French quarter bourbon street and the trolley 
 			Actual: 0
 			Prediction: 1
-			Sentence: The location is terrible the room was dirty and the people from the front desk where kind of rude
+			Sentence: The location is terrible the room was dirty and the people from the front desk where kind of rude 
 			Actual: 0
 			Prediction: 1
-			Sentence: The only areas that were air conditioned where the actual guest rooms and ours had a window unit
+			Sentence: The only areas that were air conditioned where the actual guest rooms and ours had a window unit 
 			Actual: 0
 			Prediction: 1
-			Sentence: The workmen who are working on fire damaged areas took time to give us a tour
+			Sentence: The workmen who are working on fire damaged areas took time to give us a tour 
 			Actual: 0
 			Prediction: 1
-			Sentence: My loft sleeping area had ceilings about 6 feet high and I m 6 3
+			Sentence: My loft sleeping area had ceilings about 6 feet high and I m 6 3 
 			Actual: 0
 			Prediction: 1
-			Sentence: I enjoy staying at One Burgess Hill because of the peace and tranquility yet its only a few minutes drive to the middle of town
+			Sentence: I enjoy staying at One Burgess Hill because of the peace and tranquility yet its only a few minutes drive to the middle of town 
 			Actual: 0
 			Prediction: 1
-			Sentence: Available free bicycles were a bit sorry tho we ended up taking hire bikes from a nearby shop
+			Sentence: Available free bicycles were a bit sorry tho we ended up taking hire bikes from a nearby shop 
 			Actual: 0
 			Prediction: 1
 			Sentence: Motel has plenty of room in the unit we were in a block apart from the main area and parking was a little crampedl
 			Actual: 1
 			Prediction: 0
-			Sentence: Southern hospitality beautiful historic hotel in a wonderful location on Flagler Ave
+			Sentence: Southern hospitality beautiful historic hotel in a wonderful location on Flagler Ave 
 			Actual: 0
 			Prediction: 1
-			Sentence: Carpeting and drapes
+			Sentence: Carpeting and drapes 
 			Actual: 0
 			Prediction: 1
-			Sentence: But in an area where nightly rates exceed 125 you get more or less what you pay for
+			Sentence: But in an area where nightly rates exceed 125 you get more or less what you pay for 
 			Actual: 0
 			Prediction: 1
-			Sentence: Sn overnight event in Newcastle resulted in us staying at the Clarendon
+			Sentence: Sn overnight event in Newcastle resulted in us staying at the Clarendon 
 			Actual: 0
 			Prediction: 1
-			Sentence: While the room could have been cleaner the location and price were great
+			Sentence: While the room could have been cleaner the location and price were great 
 			Actual: 0
 			Prediction: 1
-			Sentence: Great location and well presented except for the following issues 1
+			Sentence: Great location and well presented except for the following issues 1 
 			Actual: 0
 			Prediction: 1
-			Sentence: Parking could possibly be a issue and minimal area to hang your towel
+			Sentence: Parking could possibly be a issue and minimal area to hang your towel 
 			Actual: 0
 			Prediction: 1
-			Sentence: Too spread out walking from room to hotel activities really is not well thought out
+			Sentence: Too spread out walking from room to hotel activities really is not well thought out 
 			Actual: 0
 			Prediction: 1
-			Sentence: Coffee can be found 1 2 mile from your room in the morning small coffee with tip and tax will cost you 5 00 Not built as a hotel more of a wedding or Corporation meeting location
+			Sentence: Coffee can be found 1 2 mile from your room in the morning small coffee with tip and tax will cost you 5 00 Not built as a hotel more of a wedding or Corporation meeting location 
 			Actual: 0
 			Prediction: 1
-			Sentence: If you have a car that makes things a little easier getting them to pick you up and take you to the resort takes some time walking or your own car is the better solution
+			Sentence: If you have a car that makes things a little easier getting them to pick you up and take you to the resort takes some time walking or your own car is the better solution 
 			Actual: 0
 			Prediction: 1
-			Sentence: Beautiful resort with very poor beach access the beach is 3 4 miles away and must be reached by shuttle
+			Sentence: Beautiful resort with very poor beach access the beach is 3 4 miles away and must be reached by shuttle 
 			Actual: 0
 			Prediction: 1
-			Sentence: I called front desk housekeeper came with cleaning cloth in her pocket to wipe down area
+			Sentence: I called front desk housekeeper came with cleaning cloth in her pocket to wipe down area 
 			Actual: 0
 			Prediction: 1
-			Sentence: Another day the area wasn t cleaned nor was the sink cleaned
+			Sentence: Another day the area wasn t cleaned nor was the sink cleaned 
 			Actual: 0
 			Prediction: 1
-			Sentence: It s right by the Newport Pier which is a very crowded area and there s an extremely busy parking lot right in front of the hotel
+			Sentence: It s right by the Newport Pier which is a very crowded area and there s an extremely busy parking lot right in front of the hotel 
 			Actual: 0
 			Prediction: 1
-			Sentence: We chose this place for the location
+			Sentence: We chose this place for the location 
 			Actual: 0
 			Prediction: 1
-			Sentence: The lounge area was a good place to relax with big open air ocean views
+			Sentence: The lounge area was a good place to relax with big open air ocean views 
 			Actual: 0
 			Prediction: 1
-			Sentence: The bay provides a wide range of dishes next to your cabanas and the beach
+			Sentence: The bay provides a wide range of dishes next to your cabanas and the beach 
 			Actual: 0
 			Prediction: 1
-			Sentence: Good hotel in a good location near the beach and night market
+			Sentence: Good hotel in a good location near the beach and night market 
 			Actual: 0
 			Prediction: 1
-			Sentence: The hotel is in a great location and literally 5 mins from the beach
+			Sentence: The hotel is in a great location and literally 5 mins from the beach 
 			Actual: 0
 			Prediction: 1
-			Sentence: I liked the hotel and its location close to the beach but it was noisy in the morning because of several constructions in the area
+			Sentence: I liked the hotel and its location close to the beach but it was noisy in the morning because of several constructions in the area 
 			Actual: 1
 			Prediction: 0
-			Sentence: Grounds requires more upkeep but love the area they are attempting to create with the picnic tables gazebo etc
+			Sentence: Grounds requires more upkeep but love the area they are attempting to create with the picnic tables gazebo etc 
 			Actual: 0
 			Prediction: 1
-			Sentence: Chose not to stay here due To the fact that when we got there the area is very seedy
+			Sentence: Chose not to stay here due To the fact that when we got there the area is very seedy 
 			Actual: 0
 			Prediction: 1
-			Sentence: On positive side everything in room is operational and location is convenient close to Marineland and the falls
+			Sentence: On positive side everything in room is operational and location is convenient close to Marineland and the falls 
 			Actual: 0
 			Prediction: 1
-			Sentence: Less than five minutes from the falls in the car
+			Sentence: Less than five minutes from the falls in the car 
 			Actual: 0
 			Prediction: 1
-			Sentence: This is what I found under my matress
+			Sentence: This is what I found under my matress 
 			Actual: 0
 			Prediction: 1
 		Number of wrong classification: 93 out of 376
@@ -583,178 +605,178 @@ Evaluation results:
 		Recall: 0.7955977462793822
 		F1-score: 0.7951479674796749
 		Wrong classification:
-			Sentence: We had booked 3 rooms with children and were sitting relaxing outside when the kitchen staff started cleaning up
+			Sentence: We had booked 3 rooms with children and were sitting relaxing outside when the kitchen staff started cleaning up 
 			Actual: 0
 			Prediction: 1
-			Sentence: Our room was upgraded to a nicer one due to painters working in the first
+			Sentence: Our room was upgraded to a nicer one due to painters working in the first 
 			Actual: 1
 			Prediction: 0
-			Sentence: The room had a great view of the bay
+			Sentence: The room had a great view of the bay 
 			Actual: 0
 			Prediction: 1
 			Sentence: Friendly staff good food nice bed no hot water in shower
 			Actual: 0
 			Prediction: 1
-			Sentence: Carpets and bedding are worn thread bare and stained
+			Sentence: Carpets and bedding are worn thread bare and stained 
 			Actual: 0
 			Prediction: 1
-			Sentence: This hotel also had a huge bathroom my bathroom experience was awesome
+			Sentence: This hotel also had a huge bathroom my bathroom experience was awesome 
 			Actual: 1
 			Prediction: 0
-			Sentence: Rooms are dated but clean
+			Sentence: Rooms are dated but clean 
 			Actual: 0
 			Prediction: 1
-			Sentence: Best of all there is modern private bathroom as well as traditional hot bath
+			Sentence: Best of all there is modern private bathroom as well as traditional hot bath 
 			Actual: 1
 			Prediction: 0
-			Sentence: The property might seem dated but to us it was part of the charm with an immense Japanese style room
+			Sentence: The property might seem dated but to us it was part of the charm with an immense Japanese style room 
 			Actual: 1
 			Prediction: 0
-			Sentence: Room was in very nice condition and large I reserved a 6 person room for one of me
+			Sentence: Room was in very nice condition and large I reserved a 6 person room for one of me 
 			Actual: 0
 			Prediction: 1
-			Sentence: Dinning room closed
+			Sentence: Dinning room closed 
 			Actual: 0
 			Prediction: 1
-			Sentence: Room 26
+			Sentence: Room 26 
 			Actual: 0
 			Prediction: 1
-			Sentence: The room was small but I wasn t there to hang out in the room
+			Sentence: The room was small but I wasn t there to hang out in the room 
 			Actual: 1
 			Prediction: 0
-			Sentence: My only complaint was with the thin walls I could hear someone snoring in the next room which drives me insane
+			Sentence: My only complaint was with the thin walls I could hear someone snoring in the next room which drives me insane 
 			Actual: 1
 			Prediction: 0
-			Sentence: very small bed and room
+			Sentence: very small bed and room 
 			Actual: 0
 			Prediction: 1
-			Sentence: Only good is window view to see harbor but other hotel has the same view
+			Sentence: Only good is window view to see harbor but other hotel has the same view 
 			Actual: 0
 			Prediction: 1
-			Sentence: Two separate rooms and both rooms where first floor with unbearable noise from above
+			Sentence: Two separate rooms and both rooms where first floor with unbearable noise from above 
 			Actual: 0
 			Prediction: 1
-			Sentence: There was wifi in the rooms
+			Sentence: There was wifi in the rooms 
 			Actual: 1
 			Prediction: 0
 			Sentence: Great price when money is tight but depending on the room you get sometimes it would be better to sleep in your vehicle close to a 24hr bathroom
 			Actual: 0
 			Prediction: 1
-			Sentence: The clerk cancelled our room and we are waiting for refund
+			Sentence: The clerk cancelled our room and we are waiting for refund 
 			Actual: 0
 			Prediction: 1
-			Sentence: Relocated to Day s Inn and never slept better
+			Sentence: Relocated to Day s Inn and never slept better 
 			Actual: 0
 			Prediction: 1
-			Sentence: Room lights were like 30 watt
+			Sentence: Room lights were like 30 watt 
 			Actual: 0
 			Prediction: 1
-			Sentence: Stay away
+			Sentence: Stay away 
 			Actual: 0
 			Prediction: 1
-			Sentence: Had to take an Uber to go Downtown the room smelled like mothballs but the price was reasonable and quiet environment
+			Sentence: Had to take an Uber to go Downtown the room smelled like mothballs but the price was reasonable and quiet environment 
 			Actual: 1
 			Prediction: 0
-			Sentence: My stay was ok the room was spacious enough
+			Sentence: My stay was ok the room was spacious enough 
 			Actual: 0
 			Prediction: 1
-			Sentence: Breakfast not available ans free coffee is available in reception but not in your room
+			Sentence: Breakfast not available ans free coffee is available in reception but not in your room 
 			Actual: 1
 			Prediction: 0
-			Sentence: We had to switch rooms because of plumbing malfunctions but the staff was extremely accommodating and the room we ended up in was lovely
+			Sentence: We had to switch rooms because of plumbing malfunctions but the staff was extremely accommodating and the room we ended up in was lovely 
 			Actual: 1
 			Prediction: 0
-			Sentence: Hotel staff was nice and helpful but room was run down
+			Sentence: Hotel staff was nice and helpful but room was run down 
 			Actual: 0
 			Prediction: 1
-			Sentence: And shower water smelt like sewage
+			Sentence: And shower water smelt like sewage 
 			Actual: 0
 			Prediction: 1
-			Sentence: Great location but rooms are pretty spartan no shampoo
+			Sentence: Great location but rooms are pretty spartan no shampoo 
 			Actual: 0
 			Prediction: 1
-			Sentence: suppose to have queen size bed room had only a full size bed
+			Sentence: suppose to have queen size bed room had only a full size bed 
 			Actual: 0
 			Prediction: 1
-			Sentence: But nothing could take away the beauty
+			Sentence: But nothing could take away the beauty 
 			Actual: 1
 			Prediction: 0
-			Sentence: What I liked the best were the free breakfasts the 5 daily credit if you didn t need the room cleaned on a daily basis
+			Sentence: What I liked the best were the free breakfasts the 5 daily credit if you didn t need the room cleaned on a daily basis 
 			Actual: 1
 			Prediction: 0
-			Sentence: Unfortunately they apparently have a second bar which was right below our room
+			Sentence: Unfortunately they apparently have a second bar which was right below our room 
 			Actual: 0
 			Prediction: 1
-			Sentence: I would stay here again but will request a room on the other side of the hotel
+			Sentence: I would stay here again but will request a room on the other side of the hotel 
 			Actual: 1
 			Prediction: 0
-			Sentence: Small rooms but that fine
+			Sentence: Small rooms but that fine 
 			Actual: 1
 			Prediction: 0
-			Sentence: No hair dryer in the bathroom but front desk happily gave me one
+			Sentence: No hair dryer in the bathroom but front desk happily gave me one 
 			Actual: 1
 			Prediction: 0
-			Sentence: Shower had Power
+			Sentence: Shower had Power 
 			Actual: 1
 			Prediction: 0
-			Sentence: Upon request we were provided a floor fan which helped with air circulation
+			Sentence: Upon request we were provided a floor fan which helped with air circulation 
 			Actual: 1
 			Prediction: 0
-			Sentence: Okay stay however could be improved by providing bathroom supplies
+			Sentence: Okay stay however could be improved by providing bathroom supplies 
 			Actual: 1
 			Prediction: 0
-			Sentence: There was a lovely skylight in the bathroom
+			Sentence: There was a lovely skylight in the bathroom 
 			Actual: 1
 			Prediction: 0
-			Sentence: Clean room near the beach and dirt cheap
+			Sentence: Clean room near the beach and dirt cheap 
 			Actual: 0
 			Prediction: 1
-			Sentence: Room was shabby and un inviting
+			Sentence: Room was shabby and un inviting 
 			Actual: 0
 			Prediction: 1
-			Sentence: The rooms were spacious and I loved that there was no carpet
+			Sentence: The rooms were spacious and I loved that there was no carpet 
 			Actual: 1
 			Prediction: 0
-			Sentence: The rooms are nice and updated but the carpeting definitely needs replacing
+			Sentence: The rooms are nice and updated but the carpeting definitely needs replacing 
 			Actual: 0
 			Prediction: 1
-			Sentence: Definitely thumbs up had the best 4th of July the resort includes park tickets which is a huge help we will definitely do this again can t wait to come back
+			Sentence: Definitely thumbs up had the best 4th of July the resort includes park tickets which is a huge help we will definitely do this again can t wait to come back 
 			Actual: 1
 			Prediction: 0
-			Sentence: Hotel was a bit dated and still and now non smoking rooms once smoking still smell
+			Sentence: Hotel was a bit dated and still and now non smoking rooms once smoking still smell 
 			Actual: 0
 			Prediction: 1
-			Sentence: It s also a bit dark in the rooms but this place is really cool
+			Sentence: It s also a bit dark in the rooms but this place is really cool 
 			Actual: 1
 			Prediction: 0
-			Sentence: CLEANING OF THE ROOM WAS HIT AND MISS
+			Sentence: CLEANING OF THE ROOM WAS HIT AND MISS 
 			Actual: 0
 			Prediction: 1
-			Sentence: Felt like a dorm room
+			Sentence: Felt like a dorm room 
 			Actual: 0
 			Prediction: 1
-			Sentence: It is convenient for me as I am a graduate student in Rutgers and my family lives two hours away from the university
+			Sentence: It is convenient for me as I am a graduate student in Rutgers and my family lives two hours away from the university 
 			Actual: 0
 			Prediction: 1
-			Sentence: The staff was nice the lobby was large and pleasant and the breakfast was good but the room was very old and smelly
+			Sentence: The staff was nice the lobby was large and pleasant and the breakfast was good but the room was very old and smelly 
 			Actual: 0
 			Prediction: 1
-			Sentence: Are the rooms a bit on the musty side
+			Sentence: Are the rooms a bit on the musty side 
 			Actual: 0
 			Prediction: 1
-			Sentence: Basic room but all the necessary needs including free wi fi
+			Sentence: Basic room but all the necessary needs including free wi fi 
 			Actual: 1
 			Prediction: 0
-			Sentence: Room wasn t clean when I reached
+			Sentence: Room wasn t clean when I reached 
 			Actual: 0
 			Prediction: 1
 			Sentence: Delay in check in manager denied to check in then after sometime he checkin but the room quality was very bad and in the hotel there is only 2 staff members 1 is manager and other waiter and no else was there in the hotel and breakfast you cannot have your choice of breakfast and the taste of breakfast is very bad and and tea is of full of water almost with no sugar i suggest everyone who is planning to visit hotel please check room before checkin and in my recommendation please if you pay genuine then go for genuine only
 			Actual: 0
 			Prediction: 1
-			Sentence: costly room and double bed was very small and with terrible sound full night
+			Sentence: costly room and double bed was very small and with terrible sound full night 
 			Actual: 0
 			Prediction: 1
-			Sentence: Windows are simple wooden frame windows so at night the noise is various and enormous
+			Sentence: Windows are simple wooden frame windows so at night the noise is various and enormous 
 			Actual: 1
 			Prediction: 0
 			Sentence: it was awesome stay in the room facilities properly
@@ -763,202 +785,202 @@ Evaluation results:
 			Sentence: Microwave oven can be added
 			Actual: 1
 			Prediction: 0
-			Sentence: Small improvements in room for better customer experience
+			Sentence: Small improvements in room for better customer experience 
 			Actual: 0
 			Prediction: 1
 			Sentence: The rooms information at booking was different then the actual rooms most rooms are tiny if anyone else booking take a screenshot of room info and claim the same during checkin
 			Actual: 0
 			Prediction: 1
-			Sentence: Lobby was grand but rooms lack cleanliness
+			Sentence: Lobby was grand but rooms lack cleanliness 
 			Actual: 0
 			Prediction: 1
-			Sentence: The room show on the pictures and the room that we got was completely different
+			Sentence: The room show on the pictures and the room that we got was completely different 
 			Actual: 0
 			Prediction: 1
-			Sentence: I booked a room here through Expedia for myself and an Indian friend
+			Sentence: I booked a room here through Expedia for myself and an Indian friend 
 			Actual: 0
 			Prediction: 1
-			Sentence: Frankly speaking the hotel staff were better than the room
+			Sentence: Frankly speaking the hotel staff were better than the room 
 			Actual: 0
 			Prediction: 1
-			Sentence: TV and phone were also available
+			Sentence: TV and phone were also available 
 			Actual: 1
 			Prediction: 0
-			Sentence: But the room was literally falling apart
+			Sentence: But the room was literally falling apart 
 			Actual: 0
 			Prediction: 1
-			Sentence: Nice place if you just need a place to sleep conveniently located
+			Sentence: Nice place if you just need a place to sleep conveniently located 
 			Actual: 1
 			Prediction: 0
-			Sentence: Room is a bit dirty
+			Sentence: Room is a bit dirty 
 			Actual: 0
 			Prediction: 1
-			Sentence: Room clean but worn
+			Sentence: Room clean but worn 
 			Actual: 0
 			Prediction: 1
-			Sentence: I haven t slept like a baby in a long time
+			Sentence: I haven t slept like a baby in a long time 
 			Actual: 1
 			Prediction: 0
-			Sentence: Only complaint is my iron was leaking water so I had to iron with no steam
+			Sentence: Only complaint is my iron was leaking water so I had to iron with no steam 
 			Actual: 1
 			Prediction: 0
-			Sentence: the room was amaizing
+			Sentence: the room was amaizing 
 			Actual: 0
 			Prediction: 1
-			Sentence: The room was small and housekeeping was nonexistent
+			Sentence: The room was small and housekeeping was nonexistent 
 			Actual: 0
 			Prediction: 1
 			Sentence: I parked my car just in front of my room super easy for me to load and unload my stuffs
 			Actual: 1
 			Prediction: 0
-			Sentence: Unique property comprised of 5 historic homes combined to make over 40 charming and one of a kind guest rooms
+			Sentence: Unique property comprised of 5 historic homes combined to make over 40 charming and one of a kind guest rooms 
 			Actual: 1
 			Prediction: 0
-			Sentence: There are interesting things to see everywhere you look from the lobby to rooms to rooftop terrace to courtyard
+			Sentence: There are interesting things to see everywhere you look from the lobby to rooms to rooftop terrace to courtyard 
 			Actual: 1
 			Prediction: 0
-			Sentence: Unique period hotel a block from Bourbon St we had a balcony to sit on and watch the passing parade
+			Sentence: Unique period hotel a block from Bourbon St we had a balcony to sit on and watch the passing parade 
 			Actual: 1
 			Prediction: 0
-			Sentence: We booked a balcony room
+			Sentence: We booked a balcony room 
 			Actual: 0
 			Prediction: 1
-			Sentence: But the hotel made sure we had got the room I had booked
+			Sentence: But the hotel made sure we had got the room I had booked 
 			Actual: 1
 			Prediction: 0
-			Sentence: Only about 6 rooms so did feel boutique
+			Sentence: Only about 6 rooms so did feel boutique 
 			Actual: 1
 			Prediction: 0
-			Sentence: Some features in our suite weren t quite on the mark lack of a top sheet on the bed mini bar not fully stocked large bathroom was cold but warmed up nicely with requested portable heater
+			Sentence: Some features in our suite weren t quite on the mark lack of a top sheet on the bed mini bar not fully stocked large bathroom was cold but warmed up nicely with requested portable heater 
 			Actual: 0
 			Prediction: 1
-			Sentence: Room was a bit dated but plenty had of beds
+			Sentence: Room was a bit dated but plenty had of beds 
 			Actual: 1
 			Prediction: 0
 			Sentence: Motel has plenty of room in the unit we were in a block apart from the main area and parking was a little crampedl
 			Actual: 1
 			Prediction: 0
-			Sentence: The room smelled a little but overall it suited our purpose
+			Sentence: The room smelled a little but overall it suited our purpose 
 			Actual: 1
 			Prediction: 0
-			Sentence: Booked and paid for room online whilst on the road
+			Sentence: Booked and paid for room online whilst on the road 
 			Actual: 0
 			Prediction: 1
-			Sentence: Although we arrived early we were allowed into our room as soon as it was cleaned
+			Sentence: Although we arrived early we were allowed into our room as soon as it was cleaned 
 			Actual: 1
 			Prediction: 0
-			Sentence: The only downfall was that there is only 1 bathroom
+			Sentence: The only downfall was that there is only 1 bathroom 
 			Actual: 1
 			Prediction: 0
-			Sentence: Telephone and internet and basic room facilities in working condition
+			Sentence: Telephone and internet and basic room facilities in working condition 
 			Actual: 0
 			Prediction: 1
-			Sentence: It must be for a deluxe room and not a Standard room which we got and which was much smaller
+			Sentence: It must be for a deluxe room and not a Standard room which we got and which was much smaller 
 			Actual: 0
 			Prediction: 1
-			Sentence: Carpeting and drapes
+			Sentence: Carpeting and drapes 
 			Actual: 0
 			Prediction: 1
-			Sentence: Slept the best here than we have at other hotels
+			Sentence: Slept the best here than we have at other hotels 
 			Actual: 1
 			Prediction: 0
-			Sentence: The air conditioner broke but they were able to fix it immediately which was great
+			Sentence: The air conditioner broke but they were able to fix it immediately which was great 
 			Actual: 1
 			Prediction: 0
-			Sentence: They have davines products in the rooms which is awesome
+			Sentence: They have davines products in the rooms which is awesome 
 			Actual: 1
 			Prediction: 0
-			Sentence: My complaint is that I thought the corner room was like the picture shown on my confirmation
+			Sentence: My complaint is that I thought the corner room was like the picture shown on my confirmation 
 			Actual: 0
 			Prediction: 1
-			Sentence: Cons no coffee pot or microwave in the room mini bar in hotel room outrageously over priced but had some nice items
+			Sentence: Cons no coffee pot or microwave in the room mini bar in hotel room outrageously over priced but had some nice items 
 			Actual: 1
 			Prediction: 0
-			Sentence: We generally like to stay down in the Village away from the hustle and bustle of Time square
+			Sentence: We generally like to stay down in the Village away from the hustle and bustle of Time square 
 			Actual: 1
 			Prediction: 0
-			Sentence: While the room could have been cleaner the location and price were great
+			Sentence: While the room could have been cleaner the location and price were great 
 			Actual: 0
 			Prediction: 1
-			Sentence: The only complaint we had was there was not enough tea in our room
+			Sentence: The only complaint we had was there was not enough tea in our room 
 			Actual: 1
 			Prediction: 0
-			Sentence: I had a small problem with my first room but the staff had no problem accommodating me with another room
+			Sentence: I had a small problem with my first room but the staff had no problem accommodating me with another room 
 			Actual: 1
 			Prediction: 0
-			Sentence: Off the freeway but could not hear the traffic from my room
+			Sentence: Off the freeway but could not hear the traffic from my room 
 			Actual: 1
 			Prediction: 0
-			Sentence: No issues with hot water and shower
+			Sentence: No issues with hot water and shower 
 			Actual: 1
 			Prediction: 0
-			Sentence: Loved that we could park right outside our bungalow
+			Sentence: Loved that we could park right outside our bungalow 
 			Actual: 1
 			Prediction: 0
-			Sentence: Too spread out walking from room to hotel activities really is not well thought out
+			Sentence: Too spread out walking from room to hotel activities really is not well thought out 
 			Actual: 0
 			Prediction: 1
-			Sentence: Beautiful resort with very poor beach access the beach is 3 4 miles away and must be reached by shuttle
+			Sentence: Beautiful resort with very poor beach access the beach is 3 4 miles away and must be reached by shuttle 
 			Actual: 0
 			Prediction: 1
-			Sentence: Very disappointed in what we booked as an ocean view room that ended up being a tree and rooftop view
+			Sentence: Very disappointed in what we booked as an ocean view room that ended up being a tree and rooftop view 
 			Actual: 0
 			Prediction: 1
-			Sentence: Side note The bedding was amazing
+			Sentence: Side note The bedding was amazing 
 			Actual: 1
 			Prediction: 0
-			Sentence: Room charges on my bill were strange I was charged twice each day for room tax and cta fee
+			Sentence: Room charges on my bill were strange I was charged twice each day for room tax and cta fee 
 			Actual: 0
 			Prediction: 1
-			Sentence: The shower was enormous
+			Sentence: The shower was enormous 
 			Actual: 1
 			Prediction: 0
-			Sentence: The room was dusty especially around coffeemaker countertop
+			Sentence: The room was dusty especially around coffeemaker countertop 
 			Actual: 0
 			Prediction: 1
-			Sentence: There is no elevatot and all the rooms are on the second floor
+			Sentence: There is no elevatot and all the rooms are on the second floor 
 			Actual: 0
 			Prediction: 1
-			Sentence: Rooms are a bit small without desk or place to set up laptop but that was easily worked out
+			Sentence: Rooms are a bit small without desk or place to set up laptop but that was easily worked out 
 			Actual: 1
 			Prediction: 0
-			Sentence: Room was just liked it looked in the picture
+			Sentence: Room was just liked it looked in the picture 
 			Actual: 1
 			Prediction: 0
-			Sentence: If you happen to stay on a bank holiday request a room not overlooking the beautiful park
+			Sentence: If you happen to stay on a bank holiday request a room not overlooking the beautiful park 
 			Actual: 1
 			Prediction: 0
-			Sentence: The hotel needs some refurbishing carpets saggy tiles cracked general maintenance but overall a very nice place
+			Sentence: The hotel needs some refurbishing carpets saggy tiles cracked general maintenance but overall a very nice place 
 			Actual: 0
 			Prediction: 1
-			Sentence: The breakfast room was sunny but up a flight of stairs
+			Sentence: The breakfast room was sunny but up a flight of stairs 
 			Actual: 0
 			Prediction: 1
-			Sentence: first room we got had some problems with ventilation but they changed it promptly
+			Sentence: first room we got had some problems with ventilation but they changed it promptly 
 			Actual: 1
 			Prediction: 0
-			Sentence: the room is OK and the breakfast is awful nothing to eat
+			Sentence: the room is OK and the breakfast is awful nothing to eat 
 			Actual: 0
 			Prediction: 1
-			Sentence: need better lighting inside the room
+			Sentence: need better lighting inside the room 
 			Actual: 0
 			Prediction: 1
-			Sentence: Luckily they put another bed in my room and only charged me a little extra per night
+			Sentence: Luckily they put another bed in my room and only charged me a little extra per night 
 			Actual: 0
 			Prediction: 1
-			Sentence: The room needed a good cleaning especially the bathroom
+			Sentence: The room needed a good cleaning especially the bathroom 
 			Actual: 0
 			Prediction: 1
-			Sentence: On positive side everything in room is operational and location is convenient close to Marineland and the falls
+			Sentence: On positive side everything in room is operational and location is convenient close to Marineland and the falls 
 			Actual: 0
 			Prediction: 1
-			Sentence: Room is dark
+			Sentence: Room is dark 
 			Actual: 0
 			Prediction: 1
-			Sentence: Think they would make sure my room was clean before I checked into it
+			Sentence: Think they would make sure my room was clean before I checked into it 
 			Actual: 0
 			Prediction: 1
-			Sentence: How about making sure my room is clean before I check in
+			Sentence: How about making sure my room is clean before I check in 
 			Actual: 0
 			Prediction: 1
 			Sentence: Only bad thing was the coffee maker was filthy
@@ -970,151 +992,151 @@ Evaluation results:
 		Recall: 0.533156796661852
 		F1-score: 0.5088642194974149
 		Wrong classification:
-			Sentence: We had booked 3 rooms with children and were sitting relaxing outside when the kitchen staff started cleaning up
+			Sentence: We had booked 3 rooms with children and were sitting relaxing outside when the kitchen staff started cleaning up 
 			Actual: 0
 			Prediction: 1
 			Sentence: Friendly staff good food nice bed no hot water in shower
 			Actual: 0
 			Prediction: 1
-			Sentence: No issues clean comfortable Friendly staff
+			Sentence: No issues clean comfortable Friendly staff 
 			Actual: 0
 			Prediction: 1
-			Sentence: Staff were as you expect good staff to be without being over the top
+			Sentence: Staff were as you expect good staff to be without being over the top 
 			Actual: 0
 			Prediction: 1
-			Sentence: Very kind and polite staff speak good English
+			Sentence: Very kind and polite staff speak good English 
 			Actual: 0
 			Prediction: 1
-			Sentence: There WAS a dead cockroach on my bedside table and the place smelt musty
+			Sentence: There WAS a dead cockroach on my bedside table and the place smelt musty 
 			Actual: 0
 			Prediction: 1
-			Sentence: Location was good staff was not helpful and room was dirty
+			Sentence: Location was good staff was not helpful and room was dirty 
 			Actual: 0
 			Prediction: 1
-			Sentence: Staff were not friendly gud
+			Sentence: Staff were not friendly gud 
 			Actual: 0
 			Prediction: 1
-			Sentence: The front desk staff was the only silver lining at this place
+			Sentence: The front desk staff was the only silver lining at this place 
 			Actual: 0
 			Prediction: 1
-			Sentence: The room was filthy they dealt drugs outside all night long and the service was horrible
+			Sentence: The room was filthy they dealt drugs outside all night long and the service was horrible 
 			Actual: 0
 			Prediction: 1
-			Sentence: Maid knocked on my door 10 mins before checkout and TOLD me to GET OUT
+			Sentence: Maid knocked on my door 10 mins before checkout and TOLD me to GET OUT 
 			Actual: 0
 			Prediction: 1
-			Sentence: Stay away
+			Sentence: Stay away 
 			Actual: 0
 			Prediction: 1
-			Sentence: Facility had nice staff however we found rat feces in the room the shower was literally a spicket in the wall and the building was in disaray
+			Sentence: Facility had nice staff however we found rat feces in the room the shower was literally a spicket in the wall and the building was in disaray 
 			Actual: 0
 			Prediction: 1
-			Sentence: The property did not offer any food service so you are forced to search the local area
+			Sentence: The property did not offer any food service so you are forced to search the local area 
 			Actual: 0
 			Prediction: 1
-			Sentence: Also there was a advertising of a continiental breakfast and there was none as previously stated the property had no food service for their guests
+			Sentence: Also there was a advertising of a continiental breakfast and there was none as previously stated the property had no food service for their guests 
 			Actual: 0
 			Prediction: 1
-			Sentence: Some members of the staff were very nice and some were pretty rude
+			Sentence: Some members of the staff were very nice and some were pretty rude 
 			Actual: 0
 			Prediction: 1
-			Sentence: Didn t look like pictures online WiFi was really poor had to ask for hot water but overall the staff was really nice and wasn t so bad after all
+			Sentence: Didn t look like pictures online WiFi was really poor had to ask for hot water but overall the staff was really nice and wasn t so bad after all 
 			Actual: 0
 			Prediction: 1
-			Sentence: Breakfast not available ans free coffee is available in reception but not in your room
+			Sentence: Breakfast not available ans free coffee is available in reception but not in your room 
 			Actual: 1
 			Prediction: 0
 			Sentence: Close to everything was worse staying in staff was wonderful
 			Actual: 0
 			Prediction: 1
-			Sentence: Hotel staff was nice and helpful but room was run down
+			Sentence: Hotel staff was nice and helpful but room was run down 
 			Actual: 0
 			Prediction: 1
-			Sentence: Grumpy manager
+			Sentence: Grumpy manager 
 			Actual: 0
 			Prediction: 1
-			Sentence: I didnt expect the service like that
+			Sentence: I didnt expect the service like that 
 			Actual: 0
 			Prediction: 1
-			Sentence: The staff is nice and friendly what San Fun Resort is the hole in the wall in my room you can smell Sewage in the room coming from bathroom toilet bowl loose on the floor Now I see why there was 2 photos posted showing the bed front of Building
+			Sentence: The staff is nice and friendly what San Fun Resort is the hole in the wall in my room you can smell Sewage in the room coming from bathroom toilet bowl loose on the floor Now I see why there was 2 photos posted showing the bed front of Building 
 			Actual: 0
 			Prediction: 1
-			Sentence: Not comfortable with the neighborhood hotel or hotel staff
+			Sentence: Not comfortable with the neighborhood hotel or hotel staff 
 			Actual: 0
 			Prediction: 1
-			Sentence: Staff were abrupt bordering on rude
+			Sentence: Staff were abrupt bordering on rude 
 			Actual: 0
 			Prediction: 1
-			Sentence: Would have been nice had the staff turned on the AC with a reservation
+			Sentence: Would have been nice had the staff turned on the AC with a reservation 
 			Actual: 0
 			Prediction: 1
 			Sentence: Staff service was horrible from front desk to restaurants lounges cleaning lady was the only one that smiled acknowledged customers with a warm smile on the 4th floor massage was excellent however staff could put a bit more effort in there services lack of parking required to park on street and continue to fill meter every 2 hrs inconvenient and costly
 			Actual: 0
 			Prediction: 1
-			Sentence: Staff not super welcoming
+			Sentence: Staff not super welcoming 
 			Actual: 0
 			Prediction: 1
-			Sentence: Manager and relief manager were present at our stay
+			Sentence: Manager and relief manager were present at our stay 
 			Actual: 0
 			Prediction: 1
 			Sentence: Left before reception opened rang later to find out about getting money refunded told it will take 5 days still waiting
 			Actual: 0
 			Prediction: 1
-			Sentence: Customer service at the reception is below par
+			Sentence: Customer service at the reception is below par 
 			Actual: 0
 			Prediction: 1
-			Sentence: Often loud and rude guests
+			Sentence: Often loud and rude guests 
 			Actual: 0
 			Prediction: 1
 			Sentence: the reception and front office is very bad
 			Actual: 0
 			Prediction: 1
-			Sentence: The front desk staff was less than friendly
+			Sentence: The front desk staff was less than friendly 
 			Actual: 0
 			Prediction: 1
-			Sentence: Definitely thumbs up had the best 4th of July the resort includes park tickets which is a huge help we will definitely do this again can t wait to come back
+			Sentence: Definitely thumbs up had the best 4th of July the resort includes park tickets which is a huge help we will definitely do this again can t wait to come back 
 			Actual: 1
 			Prediction: 0
 			Sentence: Would be helpful to know when water park is not open
 			Actual: 0
 			Prediction: 1
-			Sentence: Staffs are friendly however the hotel is really outdated
+			Sentence: Staffs are friendly however the hotel is really outdated 
 			Actual: 0
 			Prediction: 1
-			Sentence: The staff was nice the lobby was large and pleasant and the breakfast was good but the room was very old and smelly
+			Sentence: The staff was nice the lobby was large and pleasant and the breakfast was good but the room was very old and smelly 
 			Actual: 0
 			Prediction: 1
-			Sentence: Night staff very unhelpful
+			Sentence: Night staff very unhelpful 
 			Actual: 0
 			Prediction: 1
-			Sentence: Had to call the housekeeping staff to clean it
+			Sentence: Had to call the housekeeping staff to clean it 
 			Actual: 0
 			Prediction: 1
-			Sentence: We were upgraded the manager told us
+			Sentence: We were upgraded the manager told us 
 			Actual: 0
 			Prediction: 1
-			Sentence: as I am having the local I d hotel staff didn t allow me to stay in night
+			Sentence: as I am having the local I d hotel staff didn t allow me to stay in night 
 			Actual: 0
 			Prediction: 1
-			Sentence: Staff was good but they could have been more supportive due to which they in hospitality
+			Sentence: Staff was good but they could have been more supportive due to which they in hospitality 
 			Actual: 0
 			Prediction: 1
-			Sentence: Services were accurate they were prompt and on time no issues
+			Sentence: Services were accurate they were prompt and on time no issues 
 			Actual: 1
 			Prediction: 0
-			Sentence: Front desk appearance was good and lobby facility Staff was co operative and helpful
+			Sentence: Front desk appearance was good and lobby facility Staff was co operative and helpful 
 			Actual: 0
 			Prediction: 1
-			Sentence: The service provided at the hotel was good and on time provided and the staff behavior was good and they were accurate and quick in their work
+			Sentence: The service provided at the hotel was good and on time provided and the staff behavior was good and they were accurate and quick in their work 
 			Actual: 0
 			Prediction: 1
-			Sentence: Service was on time Food was terrible
+			Sentence: Service was on time Food was terrible 
 			Actual: 0
 			Prediction: 1
 			Sentence: Delay in check in manager denied to check in then after sometime he checkin but the room quality was very bad and in the hotel there is only 2 staff members 1 is manager and other waiter and no else was there in the hotel and breakfast you cannot have your choice of breakfast and the taste of breakfast is very bad and and tea is of full of water almost with no sugar i suggest everyone who is planning to visit hotel please check room before checkin and in my recommendation please if you pay genuine then go for genuine only
 			Actual: 0
 			Prediction: 1
-			Sentence: Food service was not available
+			Sentence: Food service was not available 
 			Actual: 0
 			Prediction: 1
 			Sentence: staff behavior is good but food quality and tea not good
@@ -1123,118 +1145,118 @@ Evaluation results:
 			Sentence: need improves service quality
 			Actual: 0
 			Prediction: 1
-			Sentence: Rooms are ok but the overall feeling with the staff was disappointing after been 15 days in India this was the only hotel were we did not felt the warmful service of all the country
+			Sentence: Rooms are ok but the overall feeling with the staff was disappointing after been 15 days in India this was the only hotel were we did not felt the warmful service of all the country 
 			Actual: 0
 			Prediction: 1
-			Sentence: Staff was good but front office people did mistake in billing which was not acceptable
+			Sentence: Staff was good but front office people did mistake in billing which was not acceptable 
 			Actual: 0
 			Prediction: 1
-			Sentence: Front office staff not I didn t feel comfortable
+			Sentence: Front office staff not I didn t feel comfortable 
 			Actual: 0
 			Prediction: 1
-			Sentence: Service was okay and decent
+			Sentence: Service was okay and decent 
 			Actual: 0
 			Prediction: 1
 			Sentence: good location new delhi tourist spots good cleanliness good customer service
 			Actual: 0
 			Prediction: 1
-			Sentence: Managers were good general staff dont care
+			Sentence: Managers were good general staff dont care 
 			Actual: 0
 			Prediction: 1
-			Sentence: Worst is the restarant service
+			Sentence: Worst is the restarant service 
 			Actual: 0
 			Prediction: 1
-			Sentence: The staff at reception during the day time is rude and unprofessional
+			Sentence: The staff at reception during the day time is rude and unprofessional 
 			Actual: 0
 			Prediction: 1
-			Sentence: Staff at checkin can be more polite other staff helpful
+			Sentence: Staff at checkin can be more polite other staff helpful 
 			Actual: 0
 			Prediction: 1
-			Sentence: decent staff and overall satisfactory stay for two nights with family
+			Sentence: decent staff and overall satisfactory stay for two nights with family 
 			Actual: 0
 			Prediction: 1
-			Sentence: Frankly speaking the hotel staff were better than the room
+			Sentence: Frankly speaking the hotel staff were better than the room 
 			Actual: 0
 			Prediction: 1
 			Sentence: no shampoo no shower gel no desk but quite and clean staffs are nice
 			Actual: 0
 			Prediction: 1
-			Sentence: Positives were friendliness of staff price and allowed to have dog
+			Sentence: Positives were friendliness of staff price and allowed to have dog 
 			Actual: 0
 			Prediction: 1
-			Sentence: Staff scruffy and unshaven although pleasant
+			Sentence: Staff scruffy and unshaven although pleasant 
 			Actual: 0
 			Prediction: 1
-			Sentence: i wish the staff was friendlier
+			Sentence: i wish the staff was friendlier 
 			Actual: 0
 			Prediction: 1
-			Sentence: Desk staff and concierge were not knowledgeable about the area or helpful in any way
+			Sentence: Desk staff and concierge were not knowledgeable about the area or helpful in any way 
 			Actual: 0
 			Prediction: 1
-			Sentence: The location is terrible the room was dirty and the people from the front desk where kind of rude
+			Sentence: The location is terrible the room was dirty and the people from the front desk where kind of rude 
 			Actual: 0
 			Prediction: 1
 			Sentence: ok staff are freindly room was ok if all you want to have is a place to put your head down for the nightbut would b
 			Actual: 0
 			Prediction: 1
-			Sentence: Nice friendly and clean Motel
+			Sentence: Nice friendly and clean Motel 
 			Actual: 0
 			Prediction: 1
-			Sentence: The Flamingo is an affordable 80 s style motel that is comfortable and clean with pleasant staff and a pool and hot pool
+			Sentence: The Flamingo is an affordable 80 s style motel that is comfortable and clean with pleasant staff and a pool and hot pool 
 			Actual: 0
 			Prediction: 1
-			Sentence: Carpeting and drapes
+			Sentence: Carpeting and drapes 
 			Actual: 0
 			Prediction: 1
-			Sentence: Room fine but no on site parking no staff on Sunday afternoons hotel locked and accessed via a locked door with a room key dining room experience not tested as seldom open for business
+			Sentence: Room fine but no on site parking no staff on Sunday afternoons hotel locked and accessed via a locked door with a room key dining room experience not tested as seldom open for business 
 			Actual: 0
 			Prediction: 1
-			Sentence: Sn overnight event in Newcastle resulted in us staying at the Clarendon
+			Sentence: Sn overnight event in Newcastle resulted in us staying at the Clarendon 
 			Actual: 0
 			Prediction: 1
-			Sentence: Very rude office staff
+			Sentence: Very rude office staff 
 			Actual: 0
 			Prediction: 1
-			Sentence: Accused me of being the bad guy when I complained about their service
+			Sentence: Accused me of being the bad guy when I complained about their service 
 			Actual: 0
 			Prediction: 1
 			Sentence: Profits over service is sad
 			Actual: 0
 			Prediction: 1
-			Sentence: Very rude reception
+			Sentence: Very rude reception 
 			Actual: 0
 			Prediction: 1
-			Sentence: Not family friendly
+			Sentence: Not family friendly 
 			Actual: 0
 			Prediction: 1
-			Sentence: Beautiful resort with very poor beach access the beach is 3 4 miles away and must be reached by shuttle
+			Sentence: Beautiful resort with very poor beach access the beach is 3 4 miles away and must be reached by shuttle 
 			Actual: 0
 			Prediction: 1
 			Sentence: resort is great but across highway from ocean service is not great at the pool
 			Actual: 0
 			Prediction: 1
-			Sentence: Food was great at the Golf club but room service food was not recommendable
+			Sentence: Food was great at the Golf club but room service food was not recommendable 
 			Actual: 0
 			Prediction: 1
-			Sentence: Our bath would not drain after taking a bath had to call service
+			Sentence: Our bath would not drain after taking a bath had to call service 
 			Actual: 0
 			Prediction: 1
-			Sentence: I was told the housekeeper from a temp service
+			Sentence: I was told the housekeeper from a temp service 
 			Actual: 0
 			Prediction: 1
-			Sentence: Beware of the front desk staff
+			Sentence: Beware of the front desk staff 
 			Actual: 0
 			Prediction: 1
-			Sentence: The bay provides a wide range of dishes next to your cabanas and the beach
+			Sentence: The bay provides a wide range of dishes next to your cabanas and the beach 
 			Actual: 0
 			Prediction: 1
-			Sentence: An average hotel with pleasant staff
+			Sentence: An average hotel with pleasant staff 
 			Actual: 0
 			Prediction: 1
-			Sentence: This is what I found under my matress
+			Sentence: This is what I found under my matress 
 			Actual: 0
 			Prediction: 1
-			Sentence: Was told by staff that there was nothing they could do
+			Sentence: Was told by staff that there was nothing they could do 
 			Actual: 0
 			Prediction: 1
 		Number of wrong classification: 89 out of 428

@@ -16,7 +16,7 @@ class AspectExtractor(object):
 
     def __init__(self):
         self.mlb = MultiLabelBinarizer()
-        self.pipeline = Pipeline([
+        self.clf = Pipeline([
             ('features', FeatureUnion(
                 transformer_list = [
                     ('bag_of_ngram', CountVectorizer(ngram_range=(1, 2)))
@@ -39,7 +39,6 @@ class AspectExtractor(object):
         data: Review sentences.
         targets: data labels (aspects).
         """
-
         data = []
         targets = []
         regex = re.compile('[^0-9a-zA-Z]+')
@@ -70,10 +69,9 @@ class AspectExtractor(object):
         -------
         self
         """
-
         X = np.array(X)
         labels = self.mlb.fit_transform(y)
-        self.clf = self.pipeline.fit(X, labels)
+        self.clf.fit(X, labels)
         return self
 
     def predict(self, X):
@@ -86,9 +84,8 @@ class AspectExtractor(object):
 
         Returns
         -------
-        y: labels for the given data.
+        results: data and labels for the given data.
         """
-
         X = np.array(X)
         labels = self.clf.predict(X)
         results = []
@@ -112,7 +109,6 @@ class AspectExtractor(object):
         y: Train data labels.
         k: Number of folds.
         """
-
         X = np.array(X)
         labels = self.mlb.fit_transform(y)
 
@@ -125,8 +121,8 @@ class AspectExtractor(object):
             X_train, X_test = X[train_index], X[test_index]
             y_train, y_test = labels[train_index], labels[test_index]
 
-            clf = self.pipeline.fit(X_train, y_train)
-            y_pred = self.pipeline.predict(X_test)
+            self.clf.fit(X_train, y_train)
+            y_pred = self.clf.predict(X_test)
 
             precision = precision_score(y_test, y_pred, average=None)
             recall = recall_score(y_test, y_pred, average=None)
@@ -152,7 +148,6 @@ class AspectExtractor(object):
         ----------
         test_data_filename: Filename for the test data.
         """
-
         X, y = AspectExtractor.read_data(test_data_filename)
         labels = self.mlb.transform(y)
         y_pred = self.clf.predict(X)
@@ -183,7 +178,7 @@ class AspectExtractor(object):
                         predicted_label.append(self.mlb.classes_[j])
                 print("\t\tActual:", actual_label)
                 print("\t\tPrediction:", predicted_label)
-        print("\n Number of wrong classification:", count, "out of", len(X))
+        print("\nNumber of wrong classification:", count, "out of", len(X))
 
     def save_model(self, model_filename, mlb_filename):
         """

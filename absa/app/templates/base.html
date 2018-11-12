@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    {% block head %}
     <meta charset="utf-8" />
     <title>How Good is My Hotel?</title>
-    <meta name="description" content="ABSA for Hotel Review." />
+    <meta name="description" content="Aspect based sentiment analysis for hotel review, find out how much your customer values you!" />
+    <link rel="canonical" href="https://asba.rayandre.ws/" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
@@ -52,16 +54,15 @@
       type="image/png"
       href="{{ url_for('static', filename='images/favicon.png') }}"
     />
+    {% endblock %}
   </head>
 
   <body>
     <div class="ribbon right blue">
-      <a href="https://github.com/wennyyustalim/absa-learning-model"
-        >Fork me on GitHub</a
-      >
+      <a href="https://github.com/wennyyustalim/absa-learning-model" rel="external nofollow">Fork me on GitHub</a>
     </div>
     <div class="ribbon left blue">
-      <a href="https://github.com/wennyyustalim/absa-learning-model">BETA</a>
+      <a href="https://github.com/wennyyustalim/absa-learning-model" rel="external nofollow">BETA</a>
     </div>
 
     <div class="container">

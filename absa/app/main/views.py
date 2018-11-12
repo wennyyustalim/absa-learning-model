@@ -1,9 +1,15 @@
 # -*- coding: utf-8 -*-
 
-from flask import render_template, redirect, request, url_for
+from flask import render_template, redirect, request, url_for, send_from_directory
 
 from app.main import main, aspect_extractor, sentiment_extractor
 from app.main.forms import ReviewForm
+
+
+@main.route('/robots.txt')
+@main.route('/sitemap.xml')
+def static_from_root():
+    return send_from_directory('./seo', request.path[1:])
 
 
 @main.route('/',  methods=['GET', 'POST'])

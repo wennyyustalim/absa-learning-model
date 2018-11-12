@@ -213,3 +213,13 @@ class AspectExtractor(object):
         self.clf = joblib.load(model_filename)
         self.mlb = joblib.load(mlb_filename)
         return self
+
+if __name__ == '__main__':
+    X, y = AspectExtractor.read_data("../../data/aspect_extractor/train_data.csv")
+    extractor = AspectExtractor()
+    extractor.cross_validate(X, y, 10)
+    extractor.fit(X, y)
+    extractor.evaluate("../../data/aspect_extractor/test_data.csv")
+    extractor.save_model("../../model/aspect_extractor.mdl", "../../model/aspect_extractor_mlb.mdl")
+    extractor.load_model("../../model/aspect_extractor.mdl", "../../model/aspect_extractor_mlb.mdl")
+    print(extractor.predict(['Good location', 'Love the food here']))

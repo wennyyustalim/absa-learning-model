@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>How Good is My Hotel?</title>
+    <meta name="description" content="ABSA for Hotel Review." />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
+    <link
+      href="{{ url_for('static', filename='css/ribbon.css')}}"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/custom.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/table.css') }}"
+    />
+    {% block css %}{% endblock %}
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='js/site.js') }}"
+    ></script>
+    {% block js %}{% endblock %}
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ url_for('static', filename='images/favicon.png') }}"
+    />
+  </head>
+
+  <body>
+    <div class="ribbon right blue">
+      <a href="https://github.com/wennyyustalim/absa-learning-model"
+        >Fork me on GitHub</a
+      >
+    </div>
+    <div class="ribbon left blue">
+      <a href="https://github.com/wennyyustalim/absa-learning-model">BETA</a>
+    </div>
+
+    <div class="container">
+      <div class="navbar-spacer"></div>
+      <nav class="navbar">
+        <div class="container">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a class="navbar-link" href="{{ url_for('main.index') }}"
+                >How Good Is My Hotel?</a
+              >
+            </li>
+            <li class="navbar-item"></li>
+          </ul>
+        </div>
+      </nav>
+      {% block body %}{% endblock %}
+    </div>
+  </body>
+</html>

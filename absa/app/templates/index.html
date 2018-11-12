@@ -1,0 +1,63 @@
+{% extends "base.html" %} {% block body %}
+<section class="header align-middle">
+  <h2 class="title">Let us decipher what your guests said.</h2>
+  <div class="row">
+    <div class="three columns value-prop"></div>
+    <div class="six columns">
+      {% if form.errors %}
+      <div class="has-error">
+        <strong
+          >Reviews should neither be empty nor be longer than 1000
+          characters.</strong
+        >
+      </div>
+      {% endif %}
+      <form action="{{ url_for('main.index') }}" method="post">
+        {{ form.hidden_tag() }}
+        <div>
+          <div>
+            {{ form.review(class_="u-full-width", placeholder="Enter your review", maxlength=1000) }}
+          </div>
+          <div>
+            {{ form.submit(class="button button-primary", value="Find Aspects and Polarity") }}
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  {% if sentence_aspects is not none %}
+  <div class="row align-middle">
+    <div class="u-full-width">
+      <h6 class="docs-header todolist-overview">Aspects</h6>
+      <table
+        id="todolist-overview-table"
+        style="margin: 0 auto; width: 100%;"
+        class="tablesorter"
+      >
+        <thead>
+          <tr>
+            <th style="width:50%">Sentence</th>
+            <th>Aspect</th>
+            <th>Polarity</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for sen_asp in sentence_aspects -%} {% for aspect_dict in
+          sen_asp.aspects -%}
+          <tr>
+            {% if loop.first -%}
+            <td class="sentence" rowspan="{{ sen_asp.aspects | length }}">
+              {{ sen_asp.sentence }}
+            </td>
+            {%- endif %}
+            <td>{{ aspect_dict.aspect }}</td>
+            <td>{{ aspect_dict.polarity }}</td>
+          </tr>
+          {%- endfor %} {%- endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  {% endif %}
+</section>
+{% endblock %}

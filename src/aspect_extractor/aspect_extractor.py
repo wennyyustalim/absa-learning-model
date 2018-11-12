@@ -157,9 +157,23 @@ class AspectExtractor(object):
         labels = self.mlb.transform(y)
         y_pred = self.clf.predict(X)
 
+        precision = np.array(precision_score(labels, y_pred, average=None))
+        recall = np.array(recall_score(labels, y_pred, average=None))
+        f1 = np.array(f1_score(labels, y_pred, average=None))
+
+        print("Evaluation results:")
+        for i in range(len(self.mlb.classes_)):
+            print("\tCategory:", self.mlb.classes_[i])
+            print("\t\tPrecision:", precision[i])
+            print("\t\tRecall:", recall[i])
+            print("\t\tF1-score:", f1[i])
+
+        print("\n Wrong classification:")
+        count = 0
         for i in range(len(X)):
             if np.any(y_pred[i] != labels[i]):
-                print("Sentence:" , X[i])
+                count += 1
+                print("\tSentence:" , X[i])
                 actual_label = []
                 predicted_label = []
                 for j in range(len(self.mlb.classes_)):
@@ -167,18 +181,9 @@ class AspectExtractor(object):
                         actual_label.append(self.mlb.classes_[j])
                     if y_pred[i][j] == 1:
                         predicted_label.append(self.mlb.classes_[j])
-                print("\tActual:", actual_label)
-                print("\tPrediction:", predicted_label)
-
-        precision = np.array(precision_score(labels, y_pred, average=None))
-        recall = np.array(recall_score(labels, y_pred, average=None))
-        f1 = np.array(f1_score(labels, y_pred, average=None))
-
-        for i in range(len(self.mlb.classes_)):
-            print("Category:", self.mlb.classes_[i])
-            print("\tPrecision:", precision[i])
-            print("\tRecall:", recall[i])
-            print("\tF1-score:", f1[i])
+                print("\t\tActual:", actual_label)
+                print("\t\tPrediction:", predicted_label)
+        print("\n Number of wrong classification:", count, "out of", len(X))
 
     def save_model(self, model_filename, mlb_filename):
         """
@@ -218,8 +223,9 @@ if __name__ == '__main__':
     X, y = AspectExtractor.read_data("../../data/aspect_extractor/train_data.csv")
     extractor = AspectExtractor()
     extractor.cross_validate(X, y, 10)
+    print()
     extractor.fit(X, y)
     extractor.evaluate("../../data/aspect_extractor/test_data.csv")
     extractor.save_model("../../model/aspect_extractor.mdl", "../../model/aspect_extractor_mlb.mdl")
     extractor.load_model("../../model/aspect_extractor.mdl", "../../model/aspect_extractor_mlb.mdl")
-    print(extractor.predict(['Good location', 'Love the food here']))
+    # print(extractor.predict(['Good location', 'Love the food here']))

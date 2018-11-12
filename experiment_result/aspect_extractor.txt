@@ -1,0 +1,1097 @@
+Cross validation results:
+	Category: cleanliness
+		Precision: 1.0
+		Recall: 0.8288500436255442
+		F1-score: 0.9052980180967174
+	Category: food/drinks
+		Precision: 0.9928571428571429
+		Recall: 0.5678471652741102
+		F1-score: 0.7112278417923579
+	Category: location
+		Precision: 0.9882706093189964
+		Recall: 0.765776979574919
+		F1-score: 0.8609900958863672
+	Category: room amenities
+		Precision: 0.9953030303030304
+		Recall: 0.8011758884351906
+		F1-score: 0.8868532615838799
+	Category: staff
+		Precision: 1.0
+		Recall: 0.8297985101012791
+		F1-score: 0.9044472215115787
+
+Evaluation results:
+	Category: cleanliness
+		Precision: 1.0
+		Recall: 0.7549019607843137
+		F1-score: 0.8603351955307262
+	Category: food/drinks
+		Precision: 0.9945652173913043
+		Recall: 0.7065637065637066
+		F1-score: 0.8261851015801355
+	Category: location
+		Precision: 0.9933993399339934
+		Recall: 0.7468982630272953
+		F1-score: 0.8526912181303116
+	Category: room amenities
+		Precision: 0.9962756052141527
+		Recall: 0.8359375
+		F1-score: 0.9090909090909091
+	Category: staff
+		Precision: 1.0
+		Recall: 0.8600451467268623
+		F1-score: 0.9247572815533981
+
+ Wrong classification:
+	Sentence: Walked to all sights 
+		Actual: ['location']
+		Prediction: []
+	Sentence: The language used was disgusting and when we asked them to tone it down they got louder and cruder
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: enjoyable walk along the estuary and wharf frontage to many restaurants and bars 
+		Actual: ['food/drinks', 'location']
+		Prediction: ['location']
+	Sentence: The 2 bedroom apartment was tidy and well stocked 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Plenty to keep you occupied nearby 
+		Actual: ['location']
+		Prediction: []
+	Sentence: It is also close to a metro stop 
+		Actual: ['location']
+		Prediction: []
+	Sentence: would never stay here again was dirty and the bed terrible
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Plenty of hot water for showers the WiFi and cable TV worked perfectly and the mini fridge actually kept drinks super cold a rarity in that size refrigerator 
+		Actual: ['food/drinks', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Carpets and bedding are worn thread bare and stained 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: []
+	Sentence: The hotel is next to the Park where the deers roam free and an Art Exhibition is in the park 
+		Actual: ['location', 'room amenities']
+		Prediction: []
+	Sentence: Next to Nara Park n also train station 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Advice don t pay for the dinner or breakfast you get much better value for money if you eat at the eating places at the nara station 
+		Actual: ['food/drinks', 'location']
+		Prediction: ['food/drinks']
+	Sentence: A beautiful hotel that is well located to nice places nearby 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Very comfortable well appointed Hotel on Sanjo Dori the main shopping street that runs from Nara station to the famous deer park 
+		Actual: ['location']
+		Prediction: []
+	Sentence: We walked to all the sights from here and very much enjoyed our stay in Nara 
+		Actual: ['location']
+		Prediction: []
+	Sentence: very respectful and helpful staffs 
+		Actual: ['staff']
+		Prediction: []
+	Sentence: The hotel is located in a great position for reaching many of Nara s prime tourist locations 
+		Actual: ['location']
+		Prediction: []
+	Sentence: It is also close to two JR stations for getting around 
+		Actual: ['location']
+		Prediction: []
+	Sentence: This hotel was hard for me to locate even through GPS as I drove from Kyoto but the worst was my room so noisy it was because all the dishes bowls and kitchen wares were cleaning just next to my room after dinner from Restaurant Can you imagine 
+		Actual: ['food/drinks', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Best of all there is modern private bathroom as well as traditional hot bath 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Lovely traditional place with remarkable breakfasts and dinners included 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: No English TV 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: We got the half board so supper was provided and it was a beautiful spread of everything you would imagine for a Japanese dinner 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: The view could have been better from our room and there wasn t a lovely garden on the property but we enjoyed our stay simply based on the food the staff and the comfortable room 
+		Actual: ['food/drinks', 'room amenities', 'staff']
+		Prediction: ['room amenities', 'staff']
+	Sentence: Arrived at around dinner time and had to wait until someone arrived to check us in 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Suite was outdated and the sofa had a musty smell that made it not very comfortable to sit on 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Bathroom and bed were very clean and comfortable 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['cleanliness']
+	Sentence: There WAS a dead cockroach on my bedside table and the place smelt musty 
+		Actual: ['location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: There was also a sewing needle complete with red thread stuck in the blue curtains near the sofa 
+		Actual: ['location', 'room amenities']
+		Prediction: []
+	Sentence: We stayed at this wonderful friendly inn with a fantastic view of the coast 
+		Actual: ['staff']
+		Prediction: []
+	Sentence: Location was good staff was not helpful and room was dirty 
+		Actual: ['cleanliness', 'location', 'room amenities', 'staff']
+		Prediction: ['location', 'room amenities', 'staff']
+	Sentence: All of our needs were met and we look forward to being guests again in the near future 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Very clean Very comfortable Great Staff Great Food the Turtle Soup 
+		Actual: ['cleanliness', 'food/drinks', 'staff']
+		Prediction: ['cleanliness', 'staff']
+	Sentence: Ate dinner on porch 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: When you walk in for the first time you think This is an older hotel 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Only good is window view to see harbor but other hotel has the same view 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Very average food would prefer eating outside Best part is that it is very close to Sula Trayambakeshwar both 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: No smoking rooms had bad smoking smell 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: They have to change my room because of smell 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: We stayed there for work for 7 days they never cleaned our room too many people live in there
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: No sleep does not make a happy customer
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: There wasn t a refrigerator or microwave 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: The bed was only made once in our 4 night stay and the dirty towels were left on the dresser one day 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Great golf place to stay in nearby Columbus IN 16 mi and just down the street to Nashville 
+		Actual: ['location']
+		Prediction: []
+	Sentence: There was only one actual coffee cup in the cabinet the TVs are old and outdated only 3 washcloths in the bathroom 
+		Actual: ['food/drinks', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Was clean top quality of service The location was beautiful The 19th hole is a must try food is great surface is great lots of fun just visiting with locals have family in the area will always stay here every time we come to town 
+		Actual: ['food/drinks', 'location', 'staff']
+		Prediction: ['location']
+	Sentence: There was a large leak falling groom the roof and the carpet was wet and the odor was horrible 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Dirty 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Was a good visit courteous and was clean
+		Actual: ['cleanliness', 'staff']
+		Prediction: ['cleanliness']
+	Sentence: The room was filthy they dealt drugs outside all night long and the service was horrible 
+		Actual: ['cleanliness', 'room amenities', 'staff']
+		Prediction: ['room amenities']
+	Sentence: When attempting to address management was argumentative and nasty 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Relocated to Day s Inn and never slept better 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Bathroom needed some cleaning 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Maid knocked on my door 10 mins before checkout and TOLD me to GET OUT 
+		Actual: ['staff']
+		Prediction: []
+	Sentence: Shower Tub inoperable 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Stay away 
+		Actual: ['location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: The TV only got one station as well 
+		Actual: ['location', 'room amenities']
+		Prediction: []
+	Sentence: No screens on the windows and a broken AC unit 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Overall I didn t feel safe and it was dirty 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Close to a great beach bar Tiki bikini hut and downtown 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Breakfast not available ans free coffee is available in reception but not in your room 
+		Actual: ['food/drinks', 'room amenities', 'staff']
+		Prediction: ['food/drinks', 'room amenities']
+	Sentence: Great little place to stay very close to the beach and beach bars and a close walk to the shops 
+		Actual: ['food/drinks', 'location']
+		Prediction: ['location']
+	Sentence: Right across the street from the Tiki Bar 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Who doesn t want to take a shower after a long day of traveling day at the beach or sweating in the heat 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: No Hot Water in the bath unless you ask for it and only the Owner Manager can turn it on no Coffee or Tea provided or even available at any time 
+		Actual: ['food/drinks', 'staff']
+		Prediction: ['food/drinks', 'room amenities', 'staff']
+	Sentence: Grumpy manager 
+		Actual: ['staff']
+		Prediction: []
+	Sentence: I was advised to go around the corner to a coffee shop 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: The floor was dingy and the bathroom curtains were filthy 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Access to busses and nearby restaurants and beach 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Doesn t feel safe to walk at night 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Quite and very nice staffs pool and room 
+		Actual: ['room amenities', 'staff']
+		Prediction: ['room amenities']
+	Sentence: A lil walking 
+		Actual: ['location']
+		Prediction: []
+	Sentence: They cleaned very well 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Wish they did lunch and dinner though 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: The staff was helpful and our suite had a full kitchen 
+		Actual: ['room amenities', 'staff']
+		Prediction: ['staff']
+	Sentence: Unfortunately there wasn t a bar 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: At 4 am someone was laying on the horn to get into the gate only to drop some drunk guy off and leave 
+		Actual: ['food/drinks', 'room amenities']
+		Prediction: []
+	Sentence: It had good bus connections 
+		Actual: ['location']
+		Prediction: []
+	Sentence: The staff is nice and friendly what San Fun Resort is the hole in the wall in my room you can smell Sewage in the room coming from bathroom toilet bowl loose on the floor Now I see why there was 2 photos posted showing the bed front of Building 
+		Actual: ['cleanliness', 'room amenities', 'staff']
+		Prediction: ['room amenities', 'staff']
+	Sentence: First room the bed wasn t made hot water wasn t working and the water smelled stagnant 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Could not sleep due to loud music and prostitues knocking at the door during the night 
+		Actual: []
+		Prediction: ['room amenities']
+	Sentence: I stayed 3 nights on Friday and Saturday the music from their outdoor bar was so painfully loud I could not hear my TV and it went on until 2 00am 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Not comfortable with the neighborhood hotel or hotel staff 
+		Actual: ['location', 'staff']
+		Prediction: ['staff']
+	Sentence: No front desk hotel is old dirty 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Place was filthy smelly and very noisy 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Toliet seat loose and toilet did not flash 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Place needs a good thorough cleaning 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: []
+	Sentence: Nothing major but a lot of little things limited number of TV channels bad reception on TV channels that were provided had to move to a different room because of a loose toilet seat the motel clerk was not particularly pleasant etc 
+		Actual: ['room amenities', 'staff']
+		Prediction: ['room amenities']
+	Sentence: Jackie s on the reef is not the ideal option for the adventurous traveler since it s situated way out west with little to do near by 
+		Actual: ['location']
+		Prediction: []
+	Sentence: The Yoga Centre is great if you re looking for peaceful beautiful surroundings away from the bigger complexes which can feel over crowded and full of kids 
+		Actual: ['location', 'room amenities']
+		Prediction: ['location']
+	Sentence: Yoga classes are a great bonus and add to the experience 
+		Actual: ['food/drinks', 'location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: Good ground for walking my dog 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Nice hotel close to lake and clean room kindly staffs 
+		Actual: ['cleanliness', 'room amenities', 'staff']
+		Prediction: ['cleanliness', 'room amenities']
+	Sentence: Guest lounging area is an elevated covered deck overlooking the grounds with bbq tables chairs room also had kitchenette 
+		Actual: ['location', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: But nothing could take away the beauty 
+		Actual: ['location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: The included breakfasts are always wonderful you won t need lunch 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: What I liked the best were the free breakfasts the 5 daily credit if you didn t need the room cleaned on a daily basis 
+		Actual: ['cleanliness', 'food/drinks', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: From the first arrival moment to the moment of departure from staffing to food quality inspired to return 
+		Actual: ['food/drinks', 'staff']
+		Prediction: ['food/drinks']
+	Sentence: Lovely clean hotel with a really nice bar perfect for a quiet nightcap after exploring the town 
+		Actual: ['cleanliness', 'food/drinks']
+		Prediction: ['cleanliness']
+	Sentence: Unfortunately they apparently have a second bar which was right below our room 
+		Actual: ['food/drinks', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Rooms are very comfortable and we were encouraged to enjoy large areas of the home which detail it s unique history 
+		Actual: ['location', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: That does not take away the charm of this place and it s beautiful setting 
+		Actual: ['location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: The manor is charming breakfasts tasty and the hosts welcoming 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: No fridge 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Good shower 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Window faces brick 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Convenient to walking down town on hanging flowered streets 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Central clean well maintained
+		Actual: ['cleanliness', 'location']
+		Prediction: ['cleanliness']
+	Sentence: Probably the best value hotel in Nelson nothing special but you get breakfast a comfy bed and cable for the night for the cheapest rate in town 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Shower had Power 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: River and walks and parks around the corner 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Great cafes nearby 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Good shower 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Excellent location and very comfortable bed and room 
+		Actual: ['location', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Nice motel close to centre rooms are always tidy 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: every aspect from being handed fresh milk on arrival and no nonsense checkin with access latter we know very lucky 
+		Actual: ['food/drinks', 'location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: We arrived very late due to a very bad accident on the highway and the owner had to get up to check us in 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: awesome spot right by the beach playgrounds bars eatery s more 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Cold shower second morning plumbing issues 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Lovely location room was very clean and comfortable 
+		Actual: ['cleanliness', 'location', 'room amenities']
+		Prediction: ['cleanliness', 'room amenities']
+	Sentence: Several bars and restaurants 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Manager and relief manager were present at our stay 
+		Actual: ['staff']
+		Prediction: []
+	Sentence: Just loved to wake up and have a walk on the Beach before breakfast
+		Actual: ['food/drinks', 'location']
+		Prediction: ['food/drinks']
+	Sentence: The Manager made our stay due to his warmth and friendliness 
+		Actual: ['staff']
+		Prediction: []
+	Sentence: Upon request we were provided a floor fan which helped with air circulation 
+		Actual: ['location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: Left before reception opened rang later to find out about getting money refunded told it will take 5 days still waiting
+		Actual: ['staff']
+		Prediction: []
+	Sentence: Older shower 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Very basic near main road so lot of noise during day 
+		Actual: ['location']
+		Prediction: []
+	Sentence: No A C so very hot and bugs if open windows 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Okay stay however could be improved by providing bathroom supplies 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Larger bedrooms but smaller living are 
+		Actual: ['location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: Clean room near the beach and dirt cheap 
+		Actual: ['cleanliness', 'location', 'room amenities']
+		Prediction: ['cleanliness', 'room amenities']
+	Sentence: Often loud and rude guests 
+		Actual: ['staff']
+		Prediction: []
+	Sentence: They need to walk the halls at night and quiet loud guests 
+		Actual: ['location']
+		Prediction: []
+	Sentence: the reception and front office is very bad
+		Actual: ['staff']
+		Prediction: []
+	Sentence: If you re heading down to DJais and BarA with your squad pile in here because you re going to spend a million dollars at the bar and the cheap ubers from here and hotel price sorta help you out a little
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Hallways were hot and stuffy plus they smelled of cigarette and marijuana smoke 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Hallways room dirty 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: They removed the party but I didn t get any sleep 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Room and halls were dirty hotel noisy all night 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Train at night was too loud 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Definitely thumbs up had the best 4th of July the resort includes park tickets which is a huge help we will definitely do this again can t wait to come back 
+		Actual: ['food/drinks', 'location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: Would be helpful to know when water park is not open
+		Actual: ['location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: CLEANING OF THE ROOM WAS HIT AND MISS 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: A train pass every hour at 50 ft from the rooms The water park resort look abandoned We were one of the only people there worse then a horror movie 
+		Actual: ['location', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Stay away in offf season times it may be ok for locals to drink beer and drive you 4x4 but not to relax or travel here 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Also in the middle of the night we hear some screams that was fun in addition of the train noises 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Only access to food nearby was a student food hall 
+		Actual: ['food/drinks', 'location']
+		Prediction: ['food/drinks']
+	Sentence: No breakfast The corking around the bath tub was discovered deeds to be cleaned up or replaced
+		Actual: ['cleanliness', 'food/drinks']
+		Prediction: ['food/drinks']
+	Sentence: Air conditioning has limited settings 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: We walked around and really enjoyed it 
+		Actual: ['location']
+		Prediction: []
+	Sentence: I found a couple of hairs on the pillow and they smelled like sweat 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: I could hear people walking around and talking in the hallway because of bad sound proof 
+		Actual: ['location']
+		Prediction: []
+	Sentence: It is convenient for me as I am a graduate student in Rutgers and my family lives two hours away from the university 
+		Actual: ['location', 'room amenities']
+		Prediction: []
+	Sentence: Pleasant employees and a nice breakfast 
+		Actual: ['food/drinks', 'staff']
+		Prediction: ['food/drinks']
+	Sentence: The curtain wand fell off when we tried to close them because the top of the curtain was torn 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: It just smelled old and musty 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Bed linens were clean but chair and carpet needed to be cleaned wicked 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['cleanliness']
+	Sentence: Great value compared to other accommodations in the vicinity 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Not looking for anything special just a good night s sleep while on the road 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: I stayed for one night it was decent for the night Was a little dirty around the edges and the tv didn t work by boyfriend had to pull the dresser out to fix the plugs also there was an old odor masked by a harsh cologne coming in 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: nearby shopping centre 
+		Actual: ['location']
+		Prediction: []
+	Sentence: We were upgraded the manager told us 
+		Actual: ['staff']
+		Prediction: []
+	Sentence: One flush the toilet bowl started leaking 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: It was noisy and the air conditioner added to the noise 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: my stay here is awesome good hotel food is so tasty good services
+		Actual: ['food/drinks', 'staff']
+		Prediction: ['food/drinks']
+	Sentence: Not good waste of money rude behaviour
+		Actual: ['staff']
+		Prediction: []
+	Sentence: you guys should mention this before that customer having the local I d is not allowed to stay in night
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: its really good hotel in this city on time services good staffs and food is so good its my stay here is so joyfully 
+		Actual: ['food/drinks', 'staff']
+		Prediction: ['food/drinks']
+	Sentence: Extreme noise from music at bar 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Okay neighborhood 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Place is a dirty mess 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: The services were very good it was on time everything was quick and accurate no issues 
+		Actual: ['staff']
+		Prediction: []
+	Sentence: Room was very comfortable available with all basic needs and well maintained with hygiene 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Services were accurate they were prompt and on time no issues 
+		Actual: ['staff']
+		Prediction: []
+	Sentence: The room was well maintained very neat and clean with all basic amenities and tidy washrooms Food was tasty i really liked its taste and quality with satisfied rates Services were not up to the mark there was huge delay and negligence which was not acceptable as i waited for long time Location was close to the city easy to travel with good connectivity convenient location Hotel appearance was nice with proper space Staff was polite and co operative they were really well behaved 
+		Actual: ['cleanliness', 'food/drinks', 'room amenities', 'staff']
+		Prediction: ['cleanliness', 'location', 'room amenities', 'staff']
+	Sentence: Services were excellent it was time there was no any delay their response was very positive 
+		Actual: ['staff']
+		Prediction: []
+	Sentence: Food quality is average Toilet basin is not up to the standard
+		Actual: ['food/drinks', 'room amenities']
+		Prediction: ['food/drinks']
+	Sentence: Rooms are dirty very bad bathroom single tube light in room no other light source fan was sprking 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Bathroom was small even u can not turn properly dirty tiles were broken no proper soap 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Hotel is over price for the provide service it includes continental breakfast but its really basic 2 o 3 indian dishes 
+		Actual: ['food/drinks', 'staff']
+		Prediction: ['food/drinks']
+	Sentence: It was close to many good restaurants and shopping and easy access to the metro 
+		Actual: ['location']
+		Prediction: []
+	Sentence: The staff were extremely helpful in figuring out where to find the metro etc 
+		Actual: ['location', 'staff']
+		Prediction: ['staff']
+	Sentence: The services were excellent it was on time with a quick and positive response 
+		Actual: ['staff']
+		Prediction: []
+	Sentence: Services were very good it was on time there was no any delay everything was fine and good 
+		Actual: ['staff']
+		Prediction: []
+	Sentence: Property was not hygiene 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Cabs and auto rickshaw can be accessed easily and there was no other place to visit nearby The ambiance was good and it was value for money and well maintained Front desk staffs were co operative and service was excellent and I was happy and satisfied with it and staff behaviour Rooms were comfortable and good 
+		Actual: ['location', 'room amenities', 'staff']
+		Prediction: ['food/drinks', 'room amenities', 'staff']
+	Sentence: Simple breakfast when I paid for all days on check out they took little bit more the price in Hotels com
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Very helpful staff good quiet location for a noisey market always clean everything works good restaurants near by 
+		Actual: ['cleanliness', 'location', 'staff']
+		Prediction: ['location', 'staff']
+	Sentence: Windows are simple wooden frame windows so at night the noise is various and enormous 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Microwave oven can be added
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Bathroom should have some freshener
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Everything was fine except buffet is missing otherwise I enjoyed my stay at Treebo Terminus
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Room was comfortable but had to ask for the floor to be re cleaned before moving in 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: and the restaurant is very good for dinner 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Nice hotel nice staff nice neighborhood nice transport options what else do you want 
+		Actual: ['location', 'staff']
+		Prediction: ['staff']
+	Sentence: 20 minutes to have a bottle of water delivered to the table 45 minutes for food to arrive but most concrening is hygiene my waiter cleaned my knife by running it between his fingers 
+		Actual: ['cleanliness', 'food/drinks']
+		Prediction: ['food/drinks']
+	Sentence: This was the second time comfort services were as expected 
+		Actual: ['staff']
+		Prediction: []
+	Sentence: It was very small window can t be open 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: It was very close to the train station and metro stations as well 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Toilet flush was a problem 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Comforter cover was not a fresh one it was clearly used one 
+		Actual: ['food/drinks', 'location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: They did not have a fresh one hence removed the dirty cover and asked us to use the comforter without cover 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: I have used this hotel in the past it is handy and convenient for New Dehli Railway station condition is fair for the price charged service was good and seemed to be no problem I would use it again
+		Actual: ['location', 'staff']
+		Prediction: ['staff']
+	Sentence: The hotel was dirty to begin with 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: The toilette was broken and the bed not cleaned 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: The hotel itself was in a run down area of the town in a dirty side street with other similar shady hotels 
+		Actual: ['cleanliness', 'location']
+		Prediction: ['location']
+	Sentence: TV and phone were also available 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: no shampoo no shower gel no desk but quite and clean staffs are nice
+		Actual: ['cleanliness', 'room amenities', 'staff']
+		Prediction: ['cleanliness', 'room amenities']
+	Sentence: Mismatch furniture sagging floors ancient bathroom 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: The only reason why I stay here is due to its proximity to Yale it is very dirty TV does not work and pricey for what you get
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Nice place if you just need a place to sleep conveniently located 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: I walked but I understand the Yale shuttle stops nearby to take you to the campus 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Room is a bit dirty 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Dirty and dated 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Could not stay way to dirty 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Beds were comfortable bathroom clean 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['cleanliness']
+	Sentence: excellent atmosphere very friendly staff good meals
+		Actual: ['food/drinks', 'staff']
+		Prediction: ['staff']
+	Sentence: Only bin emptied and tea bags replaced 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Everything cluttered with frills doilies cushions which compromised available space for luggage etc 
+		Actual: ['food/drinks', 'location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: Balcony and short distance to food drink quiet nice atmosphere
+		Actual: ['food/drinks', 'room amenities']
+		Prediction: ['food/drinks']
+	Sentence: Super close to Verti Marte the all night sandwich place Central Grocery and the rock and roll bars with lots of locals Aunt Tikis The Abbey and Santos 
+		Actual: ['food/drinks', 'location']
+		Prediction: []
+	Sentence: Nice clean quiet central 
+		Actual: ['cleanliness', 'location']
+		Prediction: ['cleanliness']
+	Sentence: I am a older woman and had to walk the blocks by myself 
+		Actual: ['location']
+		Prediction: []
+	Sentence: However it needs a little more deep cleaning 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: []
+	Sentence: Dust in places that probably contributes to the old smell 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: But once you hit the streets those smells over ride the one in the room 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: I haven t slept like a baby in a long time 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: they were ok the hotel is beautiful and if employees work on their friendlinesss people will die to go back here 
+		Actual: ['staff']
+		Prediction: []
+	Sentence: Long story but we were given a room with no windows and a dirty shower 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: They moved us to a somewhat better room but it took more than a day and the bathroom new needed cleaning before we would occupy it 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Rooms are dark and not very clean the hotel clerks were not knowledgeable about the area and the 4 different concierges we talked to had to google answers to the questions we asked something we could have done ourselves of course 
+		Actual: ['cleanliness', 'location', 'room amenities', 'staff']
+		Prediction: ['cleanliness', 'location', 'room amenities']
+	Sentence: You can walk everywhere 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Only about 5 blocks from bourbon st and a short cab ride from Frenchman st 
+		Actual: ['food/drinks', 'location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: Staff was excellent room had a sitting area partial kitchen bathroom with a huge shower and a nice sized bedroom 
+		Actual: ['location', 'room amenities', 'staff']
+		Prediction: ['room amenities', 'staff']
+	Sentence: Even though room was paid they will still charge you a 75 deposit that they tell you will refunded bavk to add after checkout when maid service states no damages to room 
+		Actual: ['room amenities', 'staff']
+		Prediction: ['room amenities']
+	Sentence: which still didnt explain why the tv didnt work 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: The location is terrible the room was dirty and the people from the front desk where kind of rude 
+		Actual: ['cleanliness', 'location', 'room amenities', 'staff']
+		Prediction: ['cleanliness', 'location', 'room amenities']
+	Sentence: Very old and filthy 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Unique period hotel a block from Bourbon St we had a balcony to sit on and watch the passing parade 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: The only areas that were air conditioned where the actual guest rooms and ours had a window unit 
+		Actual: ['location', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: If you are looking for a New Orleans feel just a block off Bourbon street this is your hotel 
+		Actual: ['food/drinks', 'location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: We are frequent visitors to NOLA from Mobile Al and always enjoy seeing tasting and staying in new or different places 
+		Actual: ['food/drinks', 'room amenities']
+		Prediction: []
+	Sentence: John was a big help in giving us great ideas Antoin s and Elizabeth s were excellent choices 
+		Actual: ['food/drinks', 'location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: The workmen who are working on fire damaged areas took time to give us a tour 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Only a few minutes drive into town but it fells like you are a million miles away from the daily hustle and bustle 
+		Actual: ['location', 'room amenities']
+		Prediction: []
+	Sentence: Love having my own kitchen 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Lovely plunger coffee and very comft bedding 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: I enjoy staying at One Burgess Hill because of the peace and tranquility yet its only a few minutes drive to the middle of town 
+		Actual: ['food/drinks', 'location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: Staff friendly and we felt very welcome and enjoyed our evening meal in the restaurant 
+		Actual: ['food/drinks', 'staff']
+		Prediction: ['staff']
+	Sentence: Had a lovely meal in the restaurant 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Some features in our suite weren t quite on the mark lack of a top sheet on the bed mini bar not fully stocked large bathroom was cold but warmed up nicely with requested portable heater 
+		Actual: ['food/drinks', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Available free bicycles were a bit sorry tho we ended up taking hire bikes from a nearby shop 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Handy city position near the sea and parks 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Staff were friendly location was good rooms were kept tidy 
+		Actual: ['cleanliness', 'location', 'room amenities', 'staff']
+		Prediction: ['location', 'room amenities', 'staff']
+	Sentence: We walked everywhere 
+		Actual: ['location']
+		Prediction: []
+	Sentence: We enjoyed the board walk along the sea front seeing the mirror wall on the Govett Brewster Gallery and other local attractions 
+		Actual: ['location', 'room amenities']
+		Prediction: []
+	Sentence: milk for cups of tea 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Clear and tidy 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Appreciated cold waster and chocolate in fridge 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Centrally positioned easy walking to centre sea 
+		Actual: ['location']
+		Prediction: []
+	Sentence: It s not to far from the central city either 
+		Actual: ['location']
+		Prediction: []
+	Sentence: The room smelled a little but overall it suited our purpose 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Note that there is no spa just a hot indoor pool but will leave you smelling strongly of chlorine 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Provided extra bed and all kitchen tools I asked 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Although we arrived early we were allowed into our room as soon as it was cleaned 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: It was quiet and easy to access central New Plymouth 
+		Actual: ['location']
+		Prediction: []
+	Sentence: The only downfall was that there is only 1 bathroom 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: For a 3 bedroom motel unit there should be at least separate bathroom and toilet or an ensuite 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Nice hot shower dated but comfortable enough for our family to stay
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Shower was great bed was great 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: The staff was accomodating and the place was tidy 
+		Actual: ['cleanliness', 'staff']
+		Prediction: ['staff']
+	Sentence: In a lower income neighborhood but that didn t affect the visit 
+		Actual: ['location']
+		Prediction: []
+	Sentence: There is a bus 28 across the street which can take you to French Quarter or Garden District 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Good experience there neighborhood looked a bit sketchy at first but felt completely safe 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Check in was a breeze and the receptionist walked us to our room and gave us a tour of the hotel and pool area 
+		Actual: ['location', 'room amenities', 'staff']
+		Prediction: ['location', 'room amenities']
+	Sentence: Dirty carpets and bathroom floors
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Carpeting and drapes 
+		Actual: ['location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: in room were badly stained 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Slept the best here than we have at other hotels 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: The air conditioner broke but they were able to fix it immediately which was great 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Comfortable bed shower and other amenities 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Subway station 0 2 miles 
+		Actual: ['location']
+		Prediction: []
+	Sentence: We generally like to stay down in the Village away from the hustle and bustle of Time square 
+		Actual: ['location', 'room amenities']
+		Prediction: ['location']
+	Sentence: It s close to subway stations nice restaurants and interesting shops 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Room not cleaned during a 2 night stay towels not replenished old soap pieces left in the tub 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Unfortunately the bathroom floor had mold growing and the whole bathroom smelled 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Sn overnight event in Newcastle resulted in us staying at the Clarendon 
+		Actual: ['food/drinks', 'location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: While the room could have been cleaner the location and price were great 
+		Actual: ['cleanliness', 'location', 'room amenities']
+		Prediction: ['location', 'room amenities']
+	Sentence: Unfortunately the hotel has also a pub and a beer garden 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: On the night I stayed the beer garden was rented out for a function which lead to extreme noise from a music band until 11 20 pm 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: The only complaint we had was there was not enough tea in our room 
+		Actual: ['food/drinks', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: There was lots of coffee but only three teabags 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: That was a bit disappointing as we couldn t have a cup of tea in the morning as we only had one teabag between two
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Lovely hotel within close walking proximity to nice restaurants and locations 
+		Actual: ['location']
+		Prediction: []
+	Sentence: It is walking distance to plenty of restaurants bars and landmarks of Newcastle 
+		Actual: ['food/drinks', 'location']
+		Prediction: ['location']
+	Sentence: It s also close to numerous bus stops great bus system in Newcastle imo 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Fridge didn t work 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Could have used some sort of guide for the TV Listings 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Food market on the lot as well as other shopping and services 
+		Actual: ['food/drinks', 'staff']
+		Prediction: ['food/drinks']
+	Sentence: The TV and WiFi are good 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Way too hot not to have working ice maker 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Dirty noisy 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Very rude reception 
+		Actual: ['staff']
+		Prediction: []
+	Sentence: Loved that we could park right outside our bungalow 
+		Actual: ['food/drinks', 'location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: Too spread out walking from room to hotel activities really is not well thought out 
+		Actual: ['location', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Beautiful resort with very poor beach access the beach is 3 4 miles away and must be reached by shuttle 
+		Actual: ['location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: The beach is dirty and undesirable 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Side note The bedding was amazing 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Nice outside fire pit for sitting around with a drink on a warm night 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: My son stationed In Newport News and we visit him to celebrate his birthday 
+		Actual: ['location']
+		Prediction: []
+	Sentence: Pleasant ladies Starr served us great blueberry ricotta pancakes with coffee for fee 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Only one thing I will correct is coffee 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Even strongest darkest coffee was weak Thanks 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Room Trashcan was not emptied the first night of my stay and housekeeper also failed to replenish coffee supply for room after first night 
+		Actual: ['food/drinks', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Front desk attendant was very helpful and courteous 
+		Actual: ['staff']
+		Prediction: []
+	Sentence: The room was dusty especially around coffeemaker countertop 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: Another day the area wasn t cleaned nor was the sink cleaned 
+		Actual: ['cleanliness', 'location']
+		Prediction: ['location']
+	Sentence: When the bar tender ran out of Bacardi rum she stated they only get stocked once a week inventory issues 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: After that we brought in our own alcohol 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Reastaurants bars and shops all around 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: The window was in the tub does not open 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Park your car and walk to the beach piers restaurants and bars 
+		Actual: ['food/drinks', 'location']
+		Prediction: ['location']
+	Sentence: Stayed in a 2 bedroom with a full kitchen 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Right next store is a wonderful fresh fish restaurant one of the best meals we ve had 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: The bay provides a wide range of dishes next to your cabanas and the beach 
+		Actual: ['food/drinks', 'location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: Reception was extremely helpful and staff in bar were excellent with the service 
+		Actual: ['food/drinks', 'staff']
+		Prediction: ['staff']
+	Sentence: The breakfasts were very filling and the wait staff were extremely friendly and helpful 
+		Actual: ['food/drinks', 'staff']
+		Prediction: ['staff']
+	Sentence: very convenient for trains at Greystones 
+		Actual: ['location']
+		Prediction: []
+	Sentence: The only fresh air comes from a space also overlooking the patio and bar 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: Sleep was difficult 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: We also came from Glendalough and went to Greystones for dinner 
+		Actual: ['food/drinks']
+		Prediction: []
+	Sentence: The hotel needs some refurbishing carpets saggy tiles cracked general maintenance but overall a very nice place 
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Good location and helpful staffs make our vacation more enjoyable 
+		Actual: ['location', 'staff']
+		Prediction: ['location']
+	Sentence: Dated with dirty bedspread and mouldy bathroom 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: The tv had a netflix feature but the spotty internet did not allow you to connect
+		Actual: ['room amenities']
+		Prediction: []
+	Sentence: Nice location average hotel breakfast not bad very good pool 
+		Actual: ['food/drinks']
+		Prediction: ['food/drinks', 'location']
+	Sentence: Friendly staff comfy bedproper air con and rainfall shower 
+		Actual: ['room amenities', 'staff']
+		Prediction: ['staff']
+	Sentence: After an overnight train journey we arrived at 6 30 in the morning and the reception staff were kind enough to let us check in early 
+		Actual: ['location', 'staff']
+		Prediction: ['staff']
+	Sentence: The room needed a good cleaning especially the bathroom 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: The floor was filthy 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Pillows had a musty smell 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: It was a hot weekend and the AC ran all the time so that might have contributed to the musty smell 
+		Actual: ['cleanliness']
+		Prediction: []
+	Sentence: Great trip overnight stay clean quiet comfortable microwave fridge tv everything you need to enjoy the area 
+		Actual: ['cleanliness', 'location', 'room amenities']
+		Prediction: ['cleanliness', 'location']
+	Sentence: Less than five minutes from the falls in the car 
+		Actual: ['location', 'room amenities']
+		Prediction: []
+	Sentence: Spiders in room stains on carpet holes in walls and doors 
+		Actual: ['cleanliness', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: No outlets other than the ones in the bathroom and near the door such that the coffeemaker is placed in the bathroom which is weird 
+		Actual: ['location', 'room amenities']
+		Prediction: ['room amenities']
+	Sentence: This is what I found under my matress 
+		Actual: ['location', 'room amenities', 'staff']
+		Prediction: []
+	Sentence: Amazing staff breakfast was amazing clean room restroom could use alittle more cleaning but overall goos experience will stay again if in town 
+		Actual: ['cleanliness', 'food/drinks', 'room amenities', 'staff']
+		Prediction: ['cleanliness', 'room amenities']
+	Sentence: Only bad thing was the coffee maker was filthy
+		Actual: ['cleanliness', 'food/drinks', 'room amenities']
+		Prediction: ['food/drinks', 'room amenities']
+
+ Number of wrong classification: 350 out of 2840
